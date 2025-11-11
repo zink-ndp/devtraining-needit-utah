@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="33f43071c389f6102a9b1e0ed4013166" label="JikouJouhou" max_length="40" name="x_58872_needit_jikoujouhou" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="遊漁船情報" mandatory="true" max_length="32" name="boat_info" reference="x_58872_needit_yuugyosenjouhou" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="死傷者数" mandatory="true" max_length="255" name="number_of_casualties" type="integer"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element label="船長の氏名" mandatory="true" max_length="40" name="captain_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="種類" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="種類2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="種類3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="種類1" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element label="報告者氏名" mandatory="true" max_length="40" name="reporter_name" type="string"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="日時" mandatory="true" max_length="255" name="datetime" type="glide_date_time" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="乗船していた利用者数" mandatory="true" max_length="40" name="number_of_passenger" type="integer"/>
+        <element label="事業者名" mandatory="true" max_length="40" name="business_name" type="string"/>
+        <element label="原因" max_length="40" name="causing" type="string"/>
+        <element label="業務主任者の氏名" mandatory="true" max_length="40" name="business_manager_name" type="string"/>
+        <element label="事故発生時の気象・海象等の状況" max_length="40" name="weather_condition" type="string"/>
+        <index name="index">
+            <element name="boat_info"/>
+        </index>
+    </element>
+</database>

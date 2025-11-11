@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_6be7afddc30176102a9b1e0ed40131ca</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>UXR App Shell Data Source 1 REFRESH Relay (Default)</label>
+        <props>[]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 05:26:21</sys_created_on>
+        <sys_id>a2377d7dc3813a102a9b1e0ed4013116</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UXR App Shell Data Source 1 REFRESH Relay (Default)</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_event_a2377d7dc3813a102a9b1e0ed4013116</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 05:26:21</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=a2377d7dc3813a102a9b1e0ed4013116"/>
+</record_update>

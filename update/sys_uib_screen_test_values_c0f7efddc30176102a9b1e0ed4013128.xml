@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent/>
+        <macroponent_config>{
+    "sysId": "c6d8b4e521e722105590b8323a2a6b9f",
+    "tabSysId": null,
+    "filter": null,
+    "edit": null,
+    "element": null,
+    "5865e308432021105571609dc7b8f23b": {
+        "allRecordsSelected": false,
+        "columnLimit": 0,
+        "columns": "",
+        "currentPage": 0,
+        "enableCellFiltering": true,
+        "enableColumnFiltering": true,
+        "enableColumnGrouping": true,
+        "enableColumnSorting": true,
+        "enableDeclarativeActions": true,
+        "enableDotWalk": true,
+        "liveUpdates": "off",
+        "enableLiveList": false,
+        "enableInfiniteScroll": false,
+        "enableQuickEdit": true,
+        "enableQuickFormNavigation": true,
+        "enableReferenceLinks": true,
+        "enforceViewRulesForQuickForm": true,
+        "fetchHighlightedValues": true,
+        "filter": "",
+        "fixedFilter": "",
+        "groupBy": "",
+        "listId": null,
+        "listType": "default",
+        "onlyEnableSelectionWhenRequiredByActions": true,
+        "table": "task",
+        "view": "",
+        "columnPreferenceKey": "",
+        "listControllerId": "LKMk5PfGBEtA9TMDy4iys8CB",
+        "pageSysId": "6be7afddc30176102a9b1e0ed40131ca",
+        "showListOpenedByLinkSection": null,
+        "columnFilteringPopoverDisplay": ""
+    },
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "",
+        "inputTable": "",
+        "screen": null,
+        "selectedTabIndex": null,
+        "userPrefs": null,
+        "overrideAppContextConfigIds": false,
+        "delayRecommendationFetching": "",
+        "sysparmView": null,
+        "shouldSuppressGlobalEvents": true,
+        "isMappedToAppShell": true
+    },
+    "table": "x_58872_needit_jikoujouhou",
+    "query": "",
+    "views": "",
+    "activityLogs": "",
+    "extraParams": "",
+    "fields": "",
+    "screen": "",
+    "selectedTabIndex": "",
+    "userPrefs": "",
+    "sysparmView": ""
+}</macroponent_config>
+        <screen display_value="Default">08f7efddc30176102a9b1e0ed401311f</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-06 00:09:41</sys_created_on>
+        <sys_id>c0f7efddc30176102a9b1e0ed4013128</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_c0f7efddc30176102a9b1e0ed4013128</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 02:04:44</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

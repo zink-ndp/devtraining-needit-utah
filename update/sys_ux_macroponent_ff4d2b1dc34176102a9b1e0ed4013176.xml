@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "d9f3e2a20b2210108e64aabcb4673a1f_Content",
+        "elementLabel": "Content",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "6f51fcc407363e5a52ac464315713ee9",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "empty_state_1",
+                    "elementLabel": "Empty state 1",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": ""
+                    },
+                    "isNonDestructive": false,
+                    "overrides": {},
+                    "propertyValues": {
+                        "actions": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "alignment": {
+                            "type": "JSON_LITERAL",
+                            "value": "vertical-centered"
+                        },
+                        "content": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "heading": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "label": "Page not found",
+                                "level": "3"
+                            }
+                        },
+                        "illustration": {
+                            "type": "JSON_LITERAL",
+                            "value": "unconfigured"
+                        }
+                    },
+                    "slot": null,
+                    "styles": {}
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "empty_state_1",
+                            "rules": {},
+                            "styles": {}
+                        }
+                    ],
+                    "root": null,
+                    "rules": {},
+                    "styles": {
+                        "display": "flex",
+                        "height": "100%"
+                    },
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": {
+            "height": "100%"
+        }
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[]</data>
+        <description>Notify users when the system can't find the data requested. This error indicates that the browser was able to communicate with the target server, but the URL path provided no information.</description>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events>bf4d2b1dc34176102a9b1e0ed4013188,f74d2b1dc34176102a9b1e0ed401319b,334d2b1dc34176102a9b1e0ed40131a0</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+    "MACROPONENT_READY": [
+        {
+            "broker": null,
+            "clientScript": {
+                "sysId": "374d2b1dc34176102a9b1e0ed4013181"
+            },
+            "declarativeAction": null,
+            "event": null,
+            "operation": null,
+            "targetId": "ckhbhhoiileeaaaaddjjddhiiccbudjcceerdd",
+            "type": "CLIENT_SCRIPT"
+        }
+    ]
+}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "d9f3e2a20b2210108e64aabcb4673a1f_Content",
+                "rules": {},
+                "styles": {
+                    "grid-area": "content",
+                    "margin-top": "50px",
+                    "min-height": "50px"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "grid-gap": "1px",
+            "grid-template-areas": "\"content\"",
+            "grid-template-columns": "1fr",
+            "grid-template-rows": "100%",
+            "height": "100%"
+        },
+        "templateId": null,
+        "type": "grid"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[]</props>
+        <required_translations>[ {
+  "message" : "Page not found",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties>[]</state_properties>
+        <style_config>{}</style_config>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-06 00:33:09</sys_created_on>
+        <sys_id>ff4d2b1dc34176102a9b1e0ed4013176</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_ff4d2b1dc34176102a9b1e0ed4013176</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-06 00:33:11</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff4d2b1dc34176102a9b1e0ed4013176"/>
+</record_update>

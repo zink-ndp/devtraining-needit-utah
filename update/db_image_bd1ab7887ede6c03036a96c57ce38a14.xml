@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>c492662bc33436102a9b1e0ed40131d2</image>
+        <name>sn_tile_icon/x-1857537-task-card.svg</name>
+        <size_bytes/>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 08:27:13</sys_created_on>
+        <sys_id>bd1ab7887ede6c03036a96c57ce38a14</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sn_tile_icon/x-1857537-task-card.svg</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>db_image_bd1ab7887ede6c03036a96c57ce38a14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 08:37:13</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>sn_tile_icon/x-1857537-task-card.svg</file_name>
+        <hash>40b6116d612335b6aaa889b5b14b494b3b6e71534ea7b7a9ef11927e40f98ea8</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>3260</size_bytes>
+        <size_compressed>1238</size_compressed>
+        <state>pending</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 08:37:13</sys_created_on>
+        <sys_id>c492662bc33436102a9b1e0ed40131d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 08:37:13</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>bd1ab7887ede6c03036a96c57ce38a14</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="sn_tile_icon/x-1857537-task-card.svg" sys_id="c492662bc33436102a9b1e0ed40131d2">c492662bc33436102a9b1e0ed40131d2</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 08:37:13</sys_created_on>
+        <sys_id>8892662bc33436102a9b1e0ed40131d2</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>nVe7clw3DO39FZxNnSuS4DPjdRE2atxu4S4TbbQ7o0gae+P15wcPArxOmbHmCuADPDg8AOWP374/u/v16XY5HlI7uMv5+ny5if39er7//vbjePDOu9Qcjf11fXk5Hl7fXs8H9+Pvl9dvx8Pldnv/7eHhfr9vd9jevj4/RO/9AwY+fPrw8f2P24V3/fr1n5fz8XD+fn59e3o6uD9fru//HXs6Hj5D3EpuxQUYaLbaqwtxg5qyA3AhbNUHEHPgt26lldgd+A0CVJddxM+IQONAbrA1aOIm/kqUGLYQPdgB6EMKCc9+DGWEhB7gauAf9iKb5TRXDtmZViSLjCZ+x+5sjL9Q1ZENs+VA+/E79lnOA4QLosUJQ/kEfaCXPHqlO0WbEGLB7yNCaj4WzHeLPUaXEGKoTAju8V1AQd/wtpgVyIQjGUoAniJCpzkUsU4hQN1F5owFYCcg1uprt8PRD70mwofwFTtipp/lQT/NlWO3UyJx5LYg9IUu/wycIDFgpjZWQycZJqcbkCKcomPVHHqMTi32iE0gkEJwP6FUiPSpD7sP4oOUNAX9RYvnfrnezoeH/1MbeBN4n2mLgAVSHF5qIzs3Mkna9N3wMASH9HmfST8hFVqwxZZYT6WUhks36JHneyUpoJ8yKR0Ji4n350oJbLniNWCyvVI82FqKzAPGCZS2iERLR/xZP61nG3Iyi0OZzcKjq5LSjDmPYBePTApBIQ2BCAsyp8ApYkppplg15SEU1EWJUcQ1GseORCR10VsHfvpWC2LTNcCbIA6NQgPzAEBB9J4NAPoVEQ8FiH7xtThNgPycqiVI+xP2DCUAlYP6KsQWmgBpWiSnkxYbDqHkgk/FKeEpTMKLmo/Ro2ypzGmpbIGS8do9VW3p1ML8LOA4yMxbABI50G+GQmVAvUBM6gUNb0tnINkeMmckMTk+VmXrrdrR6Fffu0GUfsCJaAIpuDWk7eVEG8OQMG2GbfMYOtxqeZpDcK2Z6AQ7m9IWcJHmGmceSMjqCn4umofolIIQWjOhFKbhNPWN/ctUv7snbV1aLvNWB9/zGp8SWGU3JWJluZMQl61IbJX1lKCV/U6i3BZgdQw2iQYrhyl9qgRXvnxGVVCP8fheIT1U86KNRPNJ9UA82wqSbBj8xbx6pNvqFWOjXyoE9hFmiEsD2GB9DzrkEvek2n1nc3UN6r0jcRsIxVNHxqHOnS91T08g/u7UJTH1jhdBDwp5LdVKEmu+lenTzdFqkNUtk7xqSdI3E714feuzL5ootBAKE7am0mwijc1qlSCEYsnMDbBiWVHNY3RKYdA95lINJhCfgdniNNAPOdLbSUmKV40CWR2HUoR+9r0RoSwooVle3GydBYfkMqLTS0nr0Z3mo77THGgt4BPqvBTFGyeiOgRhEbyyHv02r6XO9W3my9Ex/yJ8ZC5hZkpNLWGhdmlXa5761uwG2uBtardrxYrrBJFA1rNFIWDQREHRoJuiZmqyvlvqok8wakS/i9v5d5sRTC+pFcBs7NFuJsR9X8RaGvvSmqUmpZf45UpjV5zJWdXia5e0oq3APb+QfmgMHpDw1AJjYgBk1mAdL0SrWPsd7UXSUpdNw8JYWPfTYfZn0y+p0j/+w4n+c/Hpw7/rYiL2vAwAAA==</data>
+        <length>1640</length>
+        <position>1</position>
+        <sys_attachment display_value="sn_tile_icon/x-1857537-task-card.svg" sys_id="c492662bc33436102a9b1e0ed40131d2">c492662bc33436102a9b1e0ed40131d2</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 08:37:13</sys_created_on>
+        <sys_id>4c92662bc33436102a9b1e0ed40131d2</sys_id>
+    </sys_attachment_doc>
+</record_update>

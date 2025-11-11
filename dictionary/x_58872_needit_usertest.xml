@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0d05fb41c305f2102a9b1e0ed4013183" label="UserTest" max_length="40" name="x_58872_needit_usertest" type="collection">
+        <element label="Password" max_length="40" name="password" type="string"/>
+        <element label="Username" max_length="40" name="username" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

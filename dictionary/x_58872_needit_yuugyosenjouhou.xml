@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d77a7cf9c389f6102a9b1e0ed4013150" label="YuugyosenJouhou" max_length="40" name="x_58872_needit_yuugyosenjouhou" type="collection">
+        <element display="true" label="遊漁船番号" max_length="40" name="boat_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded" label="Number" max_length="40" name="number" type="string"/>
+        <element label="遊漁船名称" max_length="40" name="boat_name" type="string"/>
+    </element>
+</database>

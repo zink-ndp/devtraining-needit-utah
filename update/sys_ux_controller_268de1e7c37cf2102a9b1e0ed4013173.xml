@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_controller">
+    <sys_ux_controller action="INSERT_OR_UPDATE">
+        <controller_config_guidance>{}</controller_config_guidance>
+        <controller_macroponent display_value="GetTaskList">8a8d2167c37cf2102a9b1e0ed40131ed</controller_macroponent>
+        <description/>
+        <name>GetTaskList</name>
+        <sys_class_name>sys_ux_controller</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 04:45:32</sys_created_on>
+        <sys_id>268de1e7c37cf2102a9b1e0ed4013173</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetTaskList</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_controller_268de1e7c37cf2102a9b1e0ed4013173</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 04:45:32</sys_updated_on>
+    </sys_ux_controller>
+    <sys_translated_text action="delete_multiple" query="documentkey=268de1e7c37cf2102a9b1e0ed4013173"/>
+</record_update>

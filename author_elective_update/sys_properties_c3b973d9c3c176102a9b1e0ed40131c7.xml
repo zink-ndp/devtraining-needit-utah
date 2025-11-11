@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.entry.first.page.script</name>
+        <read_roles/>
+        <suffix>glide.entry.first.page.script</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-06 01:27:27</sys_created_on>
+        <sys_id>c3b973d9c3c176102a9b1e0ed40131c7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>glide.entry.first.page.script</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_c3b973d9c3c176102a9b1e0ed40131c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-06 01:44:51</sys_updated_on>
+        <type>string</type>
+        <value>new SPEntryPage().getFirstPageURL();</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=c3b973d9c3c176102a9b1e0ed40131c7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b5b286dcdb9279184162684e139619dd</instance_id>
+        <instance_name>dev199001</instance_name>
+        <name>sys_properties_c3b973d9c3c176102a9b1e0ed40131c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.entry.first.page.script</name><read_roles/><suffix>glide.entry.first.page.script</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-06 01:27:27</sys_created_on><sys_id>c3b973d9c3c176102a9b1e0ed40131c7</sys_id><sys_mod_count>2</sys_mod_count><sys_name>glide.entry.first.page.script</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_properties_c3b973d9c3c176102a9b1e0ed40131c7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-06 01:44:51</sys_updated_on><type>string</type><value>new SPEntryPage().getFirstPageURL();</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=c3b973d9c3c176102a9b1e0ed40131c7"/></record_update>]]></payload>
+        <payload_hash>-543223215</payload_hash>
+        <record_name>glide.entry.first.page.script</record_name>
+        <reverted_from/>
+        <source>04f9645bc3b472102a9b1e0ed40131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-06 01:44:52</sys_created_on>
+        <sys_id>d6bd7b95c30576102a9b1e0ed401316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a56d68dc50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-06 01:44:52</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>96bd3b9569057610c3443c0458900ef0</update_guid>
+        <update_guid_history>96bd3b9569057610c3443c0458900ef0:-543223215,c26d7f1570057610ed1950bcc33bc1c0:575377107,1bb9b3d97fc17610a9cd4cd9241e9cf4:-1084057966</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-06 02:27:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>3ef8d03ee0db4a759991c962d9bce061</sys_id>
+        <sys_metadata>c3b973d9c3c176102a9b1e0ed40131c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.entry.first.page.script</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_properties_c3b973d9c3c176102a9b1e0ed40131c7</sys_update_name>
+        <sys_update_version display_value="sys_properties_c3b973d9c3c176102a9b1e0ed40131c7">d6bd7b95c30576102a9b1e0ed401316e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-06 02:27:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
