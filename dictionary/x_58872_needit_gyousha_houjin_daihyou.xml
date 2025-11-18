@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0de6f6dbc38d36502a9b1e0ed40131d4" label="遊漁船業者登録申請書の法人である場合の代表者" max_length="40" name="x_58872_needit_gyousha_houjin_daihyou" type="collection">
+        <element label="氏名" max_length="40" name="name" type="string"/>
+        <element label="遊漁船業者登録番号" max_length="32" name="touroku_bangou" reference="x_58872_needit_yuugyosen_gyousha" type="reference"/>
+        <element label="フリガナ" max_length="40" name="furigana" type="string"/>
+    </element>
+</database>

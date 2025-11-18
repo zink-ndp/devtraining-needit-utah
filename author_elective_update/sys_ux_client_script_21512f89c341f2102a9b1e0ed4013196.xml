@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">81969785c301f2102a9b1e0ed4013194</macroponent>
+        <name>onLoginClick</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+async function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const username = api.state.username;
+    const password = api.state.password;
+
+    console.log(username, password);
+
+    // Gọi API login (REST API)
+    console.log("Starting");
+
+    try {
+        const result = await api.data.loginapi.invoke({
+            username: username,
+            password: password
+        });
+        console.log("Result:", result);
+    } catch (e) {
+        console.error("Error:", e);
+    }
+
+    console.log("Ended");
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-05 05:12:31</sys_created_on>
+        <sys_id>21512f89c341f2102a9b1e0ed4013196</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>onLoginClick</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_21512f89c341f2102a9b1e0ed4013196</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-05 07:58:14</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b5b286dcdb9279184162684e139619dd</instance_id>
+        <instance_name>dev199001</instance_name>
+        <name>sys_ux_client_script_21512f89c341f2102a9b1e0ed4013196</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;
+    &lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;
+        &lt;controller_preset/&gt;
+        &lt;includes/&gt;
+        &lt;macroponent display_value="Default"&gt;81969785c301f2102a9b1e0ed4013194&lt;/macroponent&gt;
+        &lt;name&gt;onLoginClick&lt;/name&gt;
+        &lt;preset/&gt;
+        &lt;required_translations&gt;[]&lt;/required_translations&gt;
+        &lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+async function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const username = api.state.username;
+    const password = api.state.password;
+
+    console.log(username, password);
+
+    // Gọi API login (REST API)
+    console.log("Starting");
+
+    try {
+        const result = await api.data.loginapi.invoke({
+            username: username,
+            password: password
+        });
+        console.log("Result:", result);
+    } catch (e) {
+        console.error("Error:", e);
+    }
+
+    console.log("Ended");
+}]]&gt;&lt;/script&gt;
+        &lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;
+        &lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-11-05 05:12:31&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;21512f89c341f2102a9b1e0ed4013196&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;onLoginClick&lt;/sys_name&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_ux_client_script_21512f89c341f2102a9b1e0ed4013196&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-11-05 07:58:14&lt;/sys_updated_on&gt;
+        &lt;target&gt;macroponent&lt;/target&gt;
+        &lt;type&gt;default&lt;/type&gt;
+    &lt;/sys_ux_client_script&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-272373523</payload_hash>
+        <record_name>onLoginClick</record_name>
+        <reverted_from/>
+        <source>c35a7dcfc34d72502a9b1e0ed4013137</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-11 02:40:37</sys_created_on>
+        <sys_id>ff6af903c38d72502a9b1e0ed40131e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a70c964670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-11 02:40:37</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>3b6af903158d7250c7d311b03146c9e1</update_guid>
+        <update_guid_history>3b6af903158d7250c7d311b03146c9e1:0,aed9f14f754d725084bce9ea419dfdaa:112220393,a59904996d85f2102150c6bbe0aa9b81:418504669,8b4779837b4d7250f65bfc261a141ced:112220393,a59904996d85f2102150c6bbe0aa9b81:418504669,d1f5bdcb820d72507743b08cb51a7f5f:112220393,a59904996d85f2102150c6bbe0aa9b81:418504669,1ddffbc5c245f210bef41ab3c438103f:-779383598,bc6f7f853145f210af6ac689829c5358:-1924728452,51aef7455745f21006cdece56539a522:-884346090,226eff055545f2100ecc9a233dbcfbdd:1777691901,25ed33059445f210419c9fbc4f799f55:1040598545,afad7bc10145f2106a70df0413c5a09b:1022928164,f36d73c1c445f21036d4c44100c3f4f4:1813323372,2f4d7f813145f21090a46fffee420a5f:1998665601,7a3b3b8d0005f210cabad0a2788a276d:871572482,4698f349a105f210143ea58d754c2c86:915913762,7906a345dd81f210e6d00004a62df0fc:-1282885822,98a42b818f81f2104c53bfa9dcf62a61:743616632,12a3ab01f881f210308c9b8d0aedbe95:803633433</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-11 05:25:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>2b94eb700ded42789b8650f95daa61c4</sys_id>
+        <sys_metadata>21512f89c341f2102a9b1e0ed4013196</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onLoginClick</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_21512f89c341f2102a9b1e0ed4013196</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_21512f89c341f2102a9b1e0ed4013196">ff6af903c38d72502a9b1e0ed40131e1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-11 05:25:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

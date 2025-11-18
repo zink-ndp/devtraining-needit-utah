@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1b61e545c3953a102a9b1e0ed401312b" label="営業所の名称及び住所" max_length="40" name="x_58872_needit_eigyoujo_no_meishou_oyobi_juusho_t" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="3" default="エービーシーかぶしきがいしゃ" label="フリガナ" max_length="40" name="f2" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="エービーシーかぶしきがいしゃ" sequence="0" value="エービーシーかぶしきがいしゃ"/>
+            </choice>
+        </element>
+        <element choice="3" default="ABC株式会社" label="名称" max_length="40" name="f1" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ABC株式会社" sequence="0" value="ABC株式会社"/>
+            </choice>
+        </element>
+        <element label="業務主任者の氏名" max_length="40" name="f3" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

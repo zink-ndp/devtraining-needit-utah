@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9319cd09c3913a102a9b1e0ed40131c7" label="届出書入力" max_length="40" name="x_58872_needit_todokede_sho_nyuuryoku" type="collection">
+        <element choice="3" default="業務規程変更届出書" label="申請書類の種類" mandatory="true" max_length="40" name="shinsei_shorui_no_shurui" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="業務規程変更届出書" sequence="0" value="業務規程変更届出書"/>
+            </choice>
+        </element>
+        <element label="変更年月日" max_length="10000" name="t1" type="string"/>
+        <element label="変更前" mandatory="true" max_length="10000" name="henkou_mae" type="string"/>
+        <element label="届出日" mandatory="true" max_length="40" name="todokede_bi" type="glide_date"/>
+        <element label="業務規程変更届出書" mandatory="true" max_length="40" name="gyoumu_kitei_henkou_todokede_sho" type="file_attachment"/>
+        <element label="変更後" mandatory="true" max_length="10000" name="henkou_go" type="string"/>
+        <element label="変更年月日" mandatory="true" max_length="40" name="henkou_nengappi" type="glide_date"/>
+        <element label="変更に係る事項" mandatory="true" max_length="10000" name="henkou_ni_kakaru_jikou" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

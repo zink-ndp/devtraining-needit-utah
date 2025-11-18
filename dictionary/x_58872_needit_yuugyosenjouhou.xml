@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="d77a7cf9c389f6102a9b1e0ed4013150" label="YuugyosenJouhou" max_length="40" name="x_58872_needit_yuugyosenjouhou" type="collection">
+    <element db_object_id="d77a7cf9c389f6102a9b1e0ed4013150" label="遊漁船情報" max_length="40" name="x_58872_needit_yuugyosenjouhou" type="collection">
+        <element label="保険期間終了" max_length="40" name="insurance_end" type="glide_date"/>
+        <element label="填補限度額" max_length="255" name="compensation_limit" type="integer"/>
+        <element label="フリガナ" max_length="40" name="furigana" type="string"/>
         <element display="true" label="遊漁船番号" max_length="40" name="boat_number" type="string"/>
+        <element label="保険契約又は共済契約の名称" max_length="40" name="insurance_contract_name" type="string"/>
+        <element label="保険期間開始" max_length="255" name="insurance_start" type="glide_date"/>
+        <element choice="1" label="遊漁船の定員" max_length="40" name="capacity" type="integer">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded" label="Number" max_length="40" name="number" type="string"/>
+        <element label="利用定員" max_length="40" name="used_capacity" type="integer"/>
+        <element choice="3" label="瀬渡し" max_length="40" name="sewatashi" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="有" language="ja" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="有" sequence="0" value="有"/>
+                <element inactive_on_update="false" label="無" language="ja" sequence="1" value="0"/>
+                <element inactive_on_update="false" label="無" sequence="1" value="無"/>
+            </choice>
+        </element>
         <element label="遊漁船名称" max_length="40" name="boat_name" type="string"/>
     </element>
 </database>

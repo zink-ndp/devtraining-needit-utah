@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e610e441c35df6102a9b1e0ed4013143" label="遊漁船業者廃業等届出書" max_length="40" name="x_58872_needit_yuugyosen_gyousha_haigyou_tou_todokede_sho" type="collection">
+        <element choice="1" label="廃止事由" max_length="40" name="haishi_jiyuu" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="死亡" sequence="0" value="死亡"/>
+                <element inactive_on_update="false" label="遊漁船業を廃止" sequence="4" value="遊漁船業を廃止"/>
+                <element inactive_on_update="false" label="破産手続開始の決定により解散" sequence="2" value="破産手続開始の決定により解散"/>
+                <element inactive_on_update="false" label="合併および破産手続開始の決定以外の理由により解散" sequence="3" value="合併および破産手続開始の決定以外の理由により解散"/>
+                <element inactive_on_update="false" label="合併により消滅" sequence="1" value="合併により消滅"/>
+            </choice>
+        </element>
+        <element label="廃止年月日" max_length="40" name="haishi_nengappi" type="glide_date"/>
+        <element label="届出日" mandatory="true" max_length="40" name="todokedebi" type="glide_date"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="遊漁船業者廃業等届出書" label="申請書類の種類" max_length="40" name="shinsei_shorui_no_shurui" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="遊漁船業者廃業等届出書" sequence="0" value="遊漁船業者廃業等届出書"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

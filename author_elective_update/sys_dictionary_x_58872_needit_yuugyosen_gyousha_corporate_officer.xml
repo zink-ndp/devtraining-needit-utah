@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="corporate_officer" table="x_58872_needit_yuugyosen_gyousha">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>法定代理人が法人である場合の役員</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>corporate_officer</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="">glide_list</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_58872_needit_yuugyosen_gyousha</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_58872_needit_gyosha_houteidairi_yakuin">x_58872_needit_gyosha_houteidairi_yakuin</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-12 01:39:35</sys_created_on>
+        <sys_id>9306ba5bc38d36502a9b1e0ed4013183</sys_id>
+        <sys_name>法定代理人が法人である場合の役員</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_dictionary_x_58872_needit_yuugyosen_gyousha_corporate_officer</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-12 02:06:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b5b286dcdb9279184162684e139619dd</instance_id>
+        <instance_name>dev199001</instance_name>
+        <name>sys_dictionary_x_58872_needit_yuugyosen_gyousha_corporate_officer</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="corporate_officer" table="x_58872_needit_yuugyosen_gyousha"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>法定代理人が法人である場合の役員</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>corporate_officer</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">glide_list</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_58872_needit_yuugyosen_gyousha</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_58872_needit_gyosha_houteidairi_yakuin">x_58872_needit_gyosha_houteidairi_yakuin</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-12 01:39:35</sys_created_on><sys_id>9306ba5bc38d36502a9b1e0ed4013183</sys_id><sys_name>法定代理人が法人である場合の役員</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_dictionary_x_58872_needit_yuugyosen_gyousha_corporate_officer</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-12 02:06:27</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1868823258</payload_hash>
+        <record_name>遊漁船業者登録 申請書.法定代理人が法人である場合の役員</record_name>
+        <reverted_from/>
+        <source>04f9645bc3b472102a9b1e0ed40131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-12 02:06:27</sys_created_on>
+        <sys_id>093cf697c3cd36502a9b1e0ed4013132</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a75d077f20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-12 02:06:27</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>c53cf69739cd365070dd4aac2a6c5c31</update_guid>
+        <update_guid_history>c53cf69739cd365070dd4aac2a6c5c31:-1868823258,d8163e5be28d3650f5af84bc6648cdcf:56968560,2f06fa5bdf8d36509b57dab7307ccd0f:-971900543</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-12 02:21:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>116d795f7f70423a89356a5dd02bc079</sys_id>
+        <sys_metadata>9306ba5bc38d36502a9b1e0ed4013183</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>法定代理人が法人である場合の役員</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="遊漁船業者登録申請書">0f08a29fc30d36502a9b1e0ed4013134</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_58872_needit_yuugyosen_gyousha_corporate_officer</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_58872_needit_yuugyosen_gyousha_corporate_officer">093cf697c3cd36502a9b1e0ed4013132</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-12 02:21:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

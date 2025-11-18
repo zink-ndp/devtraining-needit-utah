@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="法人である場合の代表者" section_id="953cd3d7c3c176502a9b1e0ed40131fa" sys_domain="global" table="x_58872_needit_yuugyosen_gyousha" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>houjin_daihyousha</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-12 04:26:17</sys_created_on>
+            <sys_id>1d3c17d7c3c176502a9b1e0ed401313e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="法人である場合の代表者" display_value="法人である場合の代表者" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">953cd3d7c3c176502a9b1e0ed40131fa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-12 04:26:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>法人である場合の代表者</caption>
+            <header>false</header>
+            <name>x_58872_needit_yuugyosen_gyousha</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-12 04:26:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>953cd3d7c3c176502a9b1e0ed40131fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_yuugyosen_gyousha</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_953cd3d7c3c176502a9b1e0ed40131fa</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-12 04:26:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b5b286dcdb9279184162684e139619dd</instance_id>
+        <instance_name>dev199001</instance_name>
+        <name>sys_ui_section_953cd3d7c3c176502a9b1e0ed40131fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="法人である場合の代表者" section_id="953cd3d7c3c176502a9b1e0ed40131fa" sys_domain="global" table="x_58872_needit_yuugyosen_gyousha" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>houjin_daihyousha</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-12 04:26:17</sys_created_on><sys_id>1d3c17d7c3c176502a9b1e0ed401313e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="法人である場合の代表者" display_value="法人である場合の代表者" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">953cd3d7c3c176502a9b1e0ed40131fa</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-12 04:26:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>法人である場合の代表者</caption><header>false</header><name>x_58872_needit_yuugyosen_gyousha</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-12 04:26:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>953cd3d7c3c176502a9b1e0ed40131fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit_yuugyosen_gyousha</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_section_953cd3d7c3c176502a9b1e0ed40131fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-12 04:26:17</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1772246988</payload_hash>
+        <record_name>遊漁船業者登録 申請書</record_name>
+        <reverted_from/>
+        <source>04f9645bc3b472102a9b1e0ed40131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-12 04:26:17</sys_created_on>
+        <sys_id>d13c17d7c3c176502a9b1e0ed4013142</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a76507c910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-12 04:26:17</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>953c17d7b1c1765010b3901a17a39d41</update_guid>
+        <update_guid_history>953c17d7b1c1765010b3901a17a39d41:1772246988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-12 04:48:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1f8f6ecd3fdc410085ac9b2c1f9ec900</sys_id>
+        <sys_metadata>953cd3d7c3c176502a9b1e0ed40131fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>法人である場合の代表者</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="遊漁船業者登録申請書">0f08a29fc30d36502a9b1e0ed4013134</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_953cd3d7c3c176502a9b1e0ed40131fa</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_953cd3d7c3c176502a9b1e0ed40131fa">d13c17d7c3c176502a9b1e0ed4013142</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-12 04:48:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

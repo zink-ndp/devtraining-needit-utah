@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,allow_data_replicate=true,display_image=photo,global_search_config_handler=UserConfig,ih_process_sync_enabled=true,iterativeDelete=true,kagami_csindex_enabled=true,metadata_link_exempt=true,ref_ac_columns=email,ref_ac_columns_search=true,ref_ac_order_by=name,ref_auto_completer=AJAXTableCompleter,slushbucket_omit_embedded=true" create_roles="user_admin" db_object_id="6ccfd821212322105590b8323a2a6bdc" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="ユーザー" max_length="40" name="sys_user" text_index="true" type="collection">
+        <element label="所属" max_length="40" name="x_58872_needit_depending" type="string"/>
+    </element>
+</database>

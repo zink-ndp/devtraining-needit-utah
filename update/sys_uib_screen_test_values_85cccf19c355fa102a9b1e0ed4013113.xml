@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent/>
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "delayRecommendationFetching": "",
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "-1",
+        "inputTable": "x_58872_needit_eigyosho",
+        "isMappedToAppShell": false,
+        "overrideAppContextConfigIds": false,
+        "screen": null,
+        "selectedTabIndex": null,
+        "shouldSuppressGlobalEvents": true,
+        "sysparmView": null,
+        "userPrefs": null
+    },
+    "5865e308432021105571609dc7b8f23b": {
+        "allRecordsSelected": false,
+        "columnFilteringPopoverDisplay": "",
+        "columnLimit": 0,
+        "columnPreferenceKey": "",
+        "columns": "",
+        "currentPage": 0,
+        "enableCellFiltering": true,
+        "enableColumnFiltering": true,
+        "enableColumnGrouping": true,
+        "enableColumnSorting": true,
+        "enableDeclarativeActions": false,
+        "enableDotWalk": true,
+        "enableInfiniteScroll": false,
+        "enableLiveList": false,
+        "enableQuickEdit": false,
+        "enableQuickFormNavigation": false,
+        "enableReferenceLinks": true,
+        "enforceViewRulesForQuickForm": false,
+        "fetchHighlightedValues": true,
+        "filter": "",
+        "fixedFilter": "touroku_bangou.touroku_number=10000001",
+        "groupBy": "",
+        "listControllerId": "vfFthf3eAU43043PoJl3ESUAkX",
+        "listId": null,
+        "listType": "simple",
+        "liveUpdates": "off",
+        "nestBy": "",
+        "onlyEnableSelectionWhenRequiredByActions": true,
+        "pageSysId": "e2a20b17c30176502a9b1e0ed40131f7",
+        "showListOpenedByLinkSection": null,
+        "table": "x_58872_needit_gyousha_houjin_daihyou",
+        "view": ""
+    },
+    "sysId": "a8f98bb0eb32010045e1a5115206fe3a",
+    "table": "sys_user",
+    "query": "",
+    "views": "",
+    "activityLogs": "",
+    "extraParams": "",
+    "fields": "",
+    "screen": "",
+    "selectedTabIndex": "",
+    "userPrefs": "",
+    "sysparmView": "",
+    "editting": null
+}</macroponent_config>
+        <screen display_value="User">49cccf19c355fa102a9b1e0ed4013109</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-18 08:26:40</sys_created_on>
+        <sys_id>85cccf19c355fa102a9b1e0ed4013113</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_85cccf19c355fa102a9b1e0ed4013113</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-18 08:37:00</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

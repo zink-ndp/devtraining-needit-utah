@@ -10,257 +10,6 @@
             "id": "d356d14b6e293a3020a244b63d278d8f",
             "type": "MACROPONENT"
         },
-        "elementId": "container_1",
-        "elementLabel": "Container 1",
-        "eventMappings": [],
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "overrides": {
-            "composition": [
-                {
-                    "definition": {
-                        "id": "d667a5e769598b2e5c6e92ebe73394f6",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "textarea_1",
-                    "elementLabel": "Textarea 1",
-                    "eventMappings": [],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "autofocus": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "autoresize": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "autoresizeRowsLimit": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "color": {
-                            "type": "JSON_LITERAL",
-                            "value": "initial"
-                        },
-                        "cols": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "configAria": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "disableMaxHeight": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "disableMinHeight": {
-                            "type": "JSON_LITERAL",
-                            "value": false
-                        },
-                        "disabled": {
-                            "type": "JSON_LITERAL",
-                            "value": false
-                        },
-                        "enableCaretSlot": {
-                            "type": "JSON_LITERAL",
-                            "value": false
-                        },
-                        "fieldLayout": {
-                            "type": "JSON_LITERAL",
-                            "value": {
-                                "layout": "vertical"
-                            }
-                        },
-                        "helperContent": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "hideRequiredIndicator": {
-                            "type": "JSON_LITERAL",
-                            "value": false
-                        },
-                        "invalid": {
-                            "type": "JSON_LITERAL",
-                            "value": false
-                        },
-                        "label": {
-                            "type": "TRANSLATION_LITERAL",
-                            "value": {
-                                "code": null,
-                                "comment": "",
-                                "message": "Textarea"
-                            }
-                        },
-                        "landmark": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "manageInvalid": {
-                            "type": "JSON_LITERAL",
-                            "value": false
-                        },
-                        "manageValue": {
-                            "type": "JSON_LITERAL",
-                            "value": false
-                        },
-                        "maxlength": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "messages": {
-                            "container": [],
-                            "type": "LIST_CONTAINER"
-                        },
-                        "minlength": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "name": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "optional": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "placeholder": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "readonly": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "required": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "resize": {
-                            "type": "JSON_LITERAL",
-                            "value": "vertical"
-                        },
-                        "rows": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "showCounter": {
-                            "type": "JSON_LITERAL",
-                            "value": null
-                        },
-                        "size": {
-                            "type": "JSON_LITERAL",
-                            "value": "md"
-                        },
-                        "value": {
-                            "type": "TRANSLATION_LITERAL",
-                            "value": {
-                                "code": null,
-                                "comment": "",
-                                "message": "Lod"
-                            }
-                        },
-                        "wrapLabel": {
-                            "type": "JSON_LITERAL",
-                            "value": false
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                }
-            ],
-            "layout": {
-                "default": {
-                    "children": null,
-                    "items": [
-                        {
-                            "element_id": "textarea_1"
-                        }
-                    ],
-                    "root": null,
-                    "rules": null,
-                    "styles": {
-                        "display": "flex",
-                        "flex-direction": "column"
-                    },
-                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
-                    "type": "flex"
-                },
-                "queries": [
-                    {
-                        "layout": {
-                            "items": [],
-                            "styles": {
-                                "height": "auto"
-                            },
-                            "type": "flex"
-                        },
-                        "queryId": "custom_ff_1"
-                    }
-                ],
-                "version": "3.1.0"
-            }
-        },
-        "preset": null,
-        "propertyValues": {
-            "ariaRegionHeadingLevel": {
-                "type": "JSON_LITERAL",
-                "value": "1"
-            },
-            "ariaRegionName": {
-                "type": "TRANSLATION_LITERAL",
-                "value": {
-                    "code": null,
-                    "comment": "",
-                    "message": ""
-                }
-            },
-            "ariaRole": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "hideEmptyStateUi": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "includeAriaHeading": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "slotWrapperBehavior": {
-                "type": "JSON_LITERAL",
-                "value": "fullheight"
-            },
-            "type": {
-                "type": "JSON_LITERAL",
-                "value": "section"
-            }
-        },
-        "slot": null,
-        "styles": {
-            "default": {},
-            "queries": [
-                {
-                    "queryId": "custom_ff_1",
-                    "value": {
-                        "height": "auto"
-                    }
-                }
-            ]
-        }
-    },
-    {
-        "definition": {
-            "id": "d356d14b6e293a3020a244b63d278d8f",
-            "type": "MACROPONENT"
-        },
         "elementId": "column_layout_1",
         "elementLabel": "Column layout 1",
         "eventMappings": [],
@@ -275,7 +24,7 @@
                         "id": "d356d14b6e293a3020a244b63d278d8f",
                         "type": "MACROPONENT"
                     },
-                    "elementId": "__vFHMBeehheeLAaaCpeeddFAKgcyKeeddHteedd__column_1",
+                    "elementId": "__bPzZVeehhEvAkgCjjffABOOqggiiqDX__column_1",
                     "elementLabel": "Column 1",
                     "eventMappings": [],
                     "isHidden": {
@@ -286,160 +35,347 @@
                         "composition": [
                             {
                                 "definition": {
-                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
-                                    "type": "MACROPONENT"
+                                    "id": "a2f6b4fc282ec180d06e96c54a359e3d",
+                                    "type": "MACROPONENT_VIEWPORT"
                                 },
-                                "elementId": "stylized_text_1",
-                                "elementLabel": "Stylized text 1",
+                                "elementId": "contextual_sidebar_1",
+                                "elementLabel": "Contextual sidebar 1",
                                 "eventMappings": [],
+                                "extensionPoints": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
                                 },
-                                "preset": null,
-                                "propertyValues": {
-                                    "configAria": {
-                                        "container": {},
-                                        "type": "MAP_CONTAINER"
-                                    },
-                                    "css": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "* { }"
-                                    },
-                                    "tag": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "h1"
-                                    },
-                                    "text": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "Let's workflow it.\nLet's wasdfasdasd\nLet's workflow it."
-                                        }
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
-                            },
-                            {
-                                "definition": {
-                                    "id": "d37ce8abca89d02905fed903c8e34d8e",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "button_1",
-                                "elementLabel": "Button 1",
-                                "eventMappings": [
+                                "items": [
                                     {
-                                        "eventMappingId": "WbbmjjPvmdBaaDujjRiiMeeBiXWgFhh",
-                                        "isConfiguration": false,
-                                        "offRowStorageId": null,
-                                        "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
-                                        "sourceEventCorrelationId": null,
-                                        "sourceEventDefinition": {
-                                            "apiName": "sn_button.NOW_BUTTON#CLICKED",
-                                            "id": null,
-                                            "type": "UXEVENT"
-                                        },
-                                        "sourceEventSysId": null,
-                                        "targets": [
-                                            {
-                                                "broker": null,
-                                                "clientScript": null,
-                                                "clientTransformScript": "",
-                                                "conditional": null,
-                                                "declarativeAction": null,
-                                                "event": {
-                                                    "apiName": "sn_uxf_page.NOW_UXF_PAGE#REMOVE_NOTIFICATIONS",
-                                                    "payload": {
-                                                        "type": "JSON_LITERAL",
-                                                        "value": {
-                                                            "items": null
-                                                        }
-                                                    },
-                                                    "sysId": "1ec283e2d558a88b2ffcb09147b04e70"
-                                                },
-                                                "operation": null,
-                                                "targetId": "UOImGeehheehhADkMXjjysFqvuRJTccH",
-                                                "type": "EVENT"
+                                        "icon": "document-blank-outline",
+                                        "id": "untitled_tab_1",
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Untitled tab"
                                             }
-                                        ]
+                                        },
+                                        "order": 100,
+                                        "type": "local"
+                                    },
+                                    {
+                                        "icon": null,
+                                        "id": "tab_2",
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Tab 2"
+                                            }
+                                        },
+                                        "order": 200,
+                                        "type": "local"
                                     }
                                 ],
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "d356d14b6e293a3020a244b63d278d8f",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "untitled_tab_1",
+                                            "elementLabel": "Untitled Tab",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "name": "Untitled Tab",
+                                            "overrides": {
+                                                "composition": [
+                                                    {
+                                                        "definition": {
+                                                            "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                                                            "type": "MACROPONENT"
+                                                        },
+                                                        "elementId": "rich_text_1",
+                                                        "elementLabel": "Rich text 1",
+                                                        "eventMappings": [],
+                                                        "isHidden": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": null
+                                                        },
+                                                        "preset": null,
+                                                        "propertyValues": {
+                                                            "html": {
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 36pt;\"&gt;&lt;strong&gt;Ahihih d0 ng0kkkk&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
+                                                                }
+                                                            }
+                                                        },
+                                                        "slot": null,
+                                                        "styles": null
+                                                    },
+                                                    {
+                                                        "definition": {
+                                                            "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                                                            "type": "MACROPONENT"
+                                                        },
+                                                        "elementId": "rich_text_2",
+                                                        "elementLabel": "Rich text 2",
+                                                        "eventMappings": [],
+                                                        "isHidden": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": null
+                                                        },
+                                                        "preset": null,
+                                                        "propertyValues": {
+                                                            "html": {
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 36pt;\"&gt;&lt;strong&gt;Ahihih d0 ng0kkkk&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
+                                                                }
+                                                            }
+                                                        },
+                                                        "slot": null,
+                                                        "styles": null
+                                                    }
+                                                ],
+                                                "layout": {
+                                                    "default": {
+                                                        "children": null,
+                                                        "items": [
+                                                            {
+                                                                "element_id": "rich_text_1"
+                                                            },
+                                                            {
+                                                                "element_id": "rich_text_2"
+                                                            }
+                                                        ],
+                                                        "root": null,
+                                                        "rules": null,
+                                                        "styles": {
+                                                            "flex-direction": "column",
+                                                            "min-height": "300px",
+                                                            "width": "100%"
+                                                        },
+                                                        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                                        "type": "flex"
+                                                    },
+                                                    "version": "3.0.0"
+                                                }
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "ariaRegionHeadingLevel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "1"
+                                                },
+                                                "ariaRegionName": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": ""
+                                                    }
+                                                },
+                                                "ariaRole": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "hideEmptyStateUi": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "includeAriaHeading": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "slotWrapperBehavior": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "fullheight"
+                                                },
+                                                "type": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "section"
+                                                }
+                                            },
+                                            "slot": "untitled_tab_1",
+                                            "styles": null
+                                        },
+                                        {
+                                            "definition": {
+                                                "id": "d356d14b6e293a3020a244b63d278d8f",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "tab_2",
+                                            "elementLabel": "Tab 2",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "name": "Tab 2",
+                                            "overrides": {
+                                                "composition": [],
+                                                "layout": {
+                                                    "default": {
+                                                        "children": null,
+                                                        "items": [],
+                                                        "root": null,
+                                                        "rules": null,
+                                                        "styles": {
+                                                            "flex-direction": "column",
+                                                            "min-height": "300px",
+                                                            "width": "100%"
+                                                        },
+                                                        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                                        "type": "flex"
+                                                    },
+                                                    "version": "3.0.0"
+                                                }
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "ariaRegionHeadingLevel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "1"
+                                                },
+                                                "ariaRegionName": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": ""
+                                                    }
+                                                },
+                                                "ariaRole": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "hideEmptyStateUi": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "includeAriaHeading": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "slotWrapperBehavior": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "fullheight"
+                                                },
+                                                "type": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "section"
+                                                }
+                                            },
+                                            "slot": "tab_2",
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": null
                                 },
                                 "preset": null,
                                 "propertyValues": {
-                                    "animatedIcon": {
+                                    "activeRoute": {
+                                        "icon": null,
+                                        "id": "tab_2",
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Tab 2"
+                                            }
+                                        },
+                                        "order": 200,
+                                        "type": "local"
+                                    },
+                                    "ariaLabel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "Tab List"
+                                    },
+                                    "defaultRoute": {
                                         "type": "JSON_LITERAL",
                                         "value": null
                                     },
-                                    "configAria": {
+                                    "dynamicTabData": {
                                         "type": "JSON_LITERAL",
                                         "value": null
                                     },
-                                    "disabled": {
+                                    "enableCollapsing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "fixedWidth": {
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     },
-                                    "icon": {
+                                    "hideLabel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "initiallyCollapsed": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "items": {
+                                        "container": [],
+                                        "type": "LIST_CONTAINER"
+                                    },
+                                    "maxWidth": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 240
+                                    },
+                                    "position": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "right"
+                                    },
+                                    "selectedTab": {
                                         "type": "JSON_LITERAL",
                                         "value": null
                                     },
-                                    "label": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "Button"
-                                        }
-                                    },
-                                    "landmark": {
+                                    "selectedTabIndex": {
                                         "type": "JSON_LITERAL",
                                         "value": null
+                                    },
+                                    "showInlinePadding": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
                                     },
                                     "size": {
                                         "type": "JSON_LITERAL",
                                         "value": "md"
                                     },
-                                    "tooltipContent": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "Enter a label"
-                                        }
-                                    },
-                                    "variant": {
+                                    "spaceBetweenItems": {
                                         "type": "JSON_LITERAL",
-                                        "value": "secondary"
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
-                            },
-                            {
-                                "definition": {
-                                    "id": "2d56f06d55f46bbd4e79b5e624beb940",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "rich_text_1",
-                                "elementLabel": "Rich text 1",
-                                "eventMappings": [],
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "preset": null,
-                                "propertyValues": {
-                                    "html": {
-                                        "type": "TRANSLATION_LITERAL",
+                                        "value": "sm"
+                                    },
+                                    "tabStyles": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ".tabset-tabs{\n    background-color: RGB(var(--now-color_surface--brand-2))\n}\n\n.tabset-container{\n    background-color: RGB(var(--now-color_surface--brand-1))\n}"
+                                    },
+                                    "viewportConfiguration": {
+                                        "type": "JSON_LITERAL",
                                         "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "&lt;p&gt;The world works with ServiceNow&lt;/p&gt;"
+                                            "enableDataDrivenTabs": true,
+                                            "validation": {
+                                                "icon": {
+                                                    "required": false
+                                                },
+                                                "name": {
+                                                    "required": true
+                                                },
+                                                "order": {
+                                                    "required": false
+                                                }
+                                            }
                                         }
                                     }
                                 },
@@ -452,13 +388,7 @@
                                 "children": null,
                                 "items": [
                                     {
-                                        "element_id": "stylized_text_1"
-                                    },
-                                    {
-                                        "element_id": "button_1"
-                                    },
-                                    {
-                                        "element_id": "rich_text_1"
+                                        "element_id": "contextual_sidebar_1"
                                     }
                                 ],
                                 "root": null,
@@ -517,7 +447,7 @@
                     "isInline": null,
                     "items": [
                         {
-                            "element_id": "__vFHMBeehheeLAaaCpeeddFAKgcyKeeddHteedd__column_1"
+                            "element_id": "__bPzZVeehhEvAkgCjjffABOOqggiiqDX__column_1"
                         }
                     ],
                     "root": null,
@@ -630,9 +560,6 @@
     "default": {
         "children": null,
         "items": [
-            {
-                "element_id": "container_1"
-            },
             {
                 "element_id": "column_layout_1"
             }
@@ -784,27 +711,15 @@
     }
 ]</props>
         <required_translations>[ {
-  "message" : "&lt;p&gt;The world works with ServiceNow&lt;/p&gt;",
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 36pt;\"&gt;&lt;strong&gt;Ahihih d0 ng0kkkk&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
   "code" : "",
   "comment" : ""
 }, {
-  "message" : "Button",
+  "message" : "Tab 2",
   "code" : "",
   "comment" : ""
 }, {
-  "message" : "Enter a label",
-  "code" : "",
-  "comment" : ""
-}, {
-  "message" : "Let's workflow it.\nLet's wasdfasdasd\nLet's workflow it.",
-  "code" : "",
-  "comment" : ""
-}, {
-  "message" : "Lod",
-  "code" : "",
-  "comment" : ""
-}, {
-  "message" : "Textarea",
+  "message" : "Untitled tab",
   "code" : "",
   "comment" : ""
 } ]</required_translations>
@@ -819,14 +734,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-31 04:20:49</sys_created_on>
         <sys_id>d0e7a12fc33cf2102a9b1e0ed4013191</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_d0e7a12fc33cf2102a9b1e0ed4013191</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-11 01:50:38</sys_updated_on>
+        <sys_updated_on>2025-11-11 02:58:25</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=d0e7a12fc33cf2102a9b1e0ed4013191"/>
 </record_update>

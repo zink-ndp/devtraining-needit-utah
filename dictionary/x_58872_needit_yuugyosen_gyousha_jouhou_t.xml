@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b207918dc3153a102a9b1e0ed40131a5" label="遊漁船業者情報" max_length="40" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" type="collection">
+        <element label="氏名又は名称" max_length="40" name="t3" type="string"/>
+        <element label="建物名・部屋番号" max_length="40" name="t10" type="string"/>
+        <element label="フリガナ" max_length="40" name="t14" type="string"/>
+        <element label="誓約書１（遊漁船業者）" max_length="40" name="u_1" type="file_attachment"/>
+        <element label="誓約書２（遊漁船業務主任者）" max_length="40" name="u_5" type="file_attachment"/>
+        <element choice="3" default="T00001" label="登録番号" max_length="40" name="t1" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="T00001" sequence="0" value="T00001"/>
+            </choice>
+        </element>
+        <element choice="3" default="2025-11-11" label="登録年月日" max_length="40" name="t2" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2025-11-11" sequence="0" value="2025-11-11"/>
+            </choice>
+        </element>
+        <element label="メールアドレス" max_length="40" name="mail" type="string"/>
+        <element label="市区町村" max_length="40" name="t6" type="string"/>
+        <element label="実務経験証明書" max_length="40" name="u_2" type="file_attachment"/>
+        <element choice="1" label="都道府県" max_length="40" name="t5" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="神奈川県" sequence="1" value="神奈川県"/>
+                <element inactive_on_update="false" label="東京都" sequence="0" value="東京都"/>
+                <element inactive_on_update="false" label="大阪府" sequence="2" value="大阪府"/>
+            </choice>
+        </element>
+        <element label="電話番号" max_length="40" name="t11" type="phone_number_e164"/>
+        <element label="氏名" max_length="40" name="t13" type="string"/>
+        <element label="町名・丁目" max_length="40" name="t7" type="string"/>
+        <element label="番地" max_length="40" name="t8" type="string"/>
+        <element label="実務研修証明書" max_length="40" name="u_4" type="file_attachment"/>
+        <element label="郵便番号" max_length="40" name="t4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="フリガナ" max_length="40" name="t9" type="string"/>
+        <element label="業務規定" max_length="40" name="u_6" type="file_attachment"/>
+        <element label="FAX番号" max_length="40" name="fax" type="phone_number_e164"/>
+        <element label="携帯電話" max_length="40" name="t12" type="phone_number_e164"/>
+        <element label="実務経験証明書" max_length="40" name="u_3" type="file_attachment"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

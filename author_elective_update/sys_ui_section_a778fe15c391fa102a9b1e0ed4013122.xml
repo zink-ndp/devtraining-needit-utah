@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="a778fe15c391fa102a9b1e0ed4013122" sys_domain="global" table="x_58872_needit_naosu" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t1</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-18 06:59:24</sys_created_on>
+            <sys_id>3ac83295c391fa102a9b1e0ed4013124</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_naosu" sys_domain="global" view="Default view">a778fe15c391fa102a9b1e0ed4013122</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-18 06:59:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-18 06:59:24</sys_created_on>
+            <sys_id>f6c83295c391fa102a9b1e0ed4013125</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_naosu" sys_domain="global" view="Default view">a778fe15c391fa102a9b1e0ed4013122</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-18 06:59:24</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t2</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-18 06:59:24</sys_created_on>
+            <sys_id>b6c83295c391fa102a9b1e0ed4013126</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_naosu" sys_domain="global" view="Default view">a778fe15c391fa102a9b1e0ed4013122</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-18 06:59:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_58872_needit_naosu</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-18 06:58:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a778fe15c391fa102a9b1e0ed4013122</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_naosu</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_a778fe15c391fa102a9b1e0ed4013122</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-18 06:58:05</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="デフォルトビュー" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b5b286dcdb9279184162684e139619dd</instance_id>
+        <instance_name>dev199001</instance_name>
+        <name>sys_ui_section_a778fe15c391fa102a9b1e0ed4013122</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="a778fe15c391fa102a9b1e0ed4013122" sys_domain="global" table="x_58872_needit_naosu" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>t1</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-18 06:59:24</sys_created_on><sys_id>3ac83295c391fa102a9b1e0ed4013124</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_58872_needit_naosu" sys_domain="global" view="Default view">a778fe15c391fa102a9b1e0ed4013122</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-18 06:59:24</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-18 06:59:24</sys_created_on><sys_id>f6c83295c391fa102a9b1e0ed4013125</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_58872_needit_naosu" sys_domain="global" view="Default view">a778fe15c391fa102a9b1e0ed4013122</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-18 06:59:24</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>t2</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-18 06:59:24</sys_created_on><sys_id>b6c83295c391fa102a9b1e0ed4013126</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_58872_needit_naosu" sys_domain="global" view="Default view">a778fe15c391fa102a9b1e0ed4013122</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-18 06:59:24</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_58872_needit_naosu</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-18 06:58:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a778fe15c391fa102a9b1e0ed4013122</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit_naosu</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_section_a778fe15c391fa102a9b1e0ed4013122</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-18 06:58:05</sys_updated_on><sys_user/><title>true</title><view display_value="デフォルトビュー" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-168631487</payload_hash>
+        <record_name>Naosu</record_name>
+        <reverted_from/>
+        <source>04f9645bc3b472102a9b1e0ed40131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-18 06:59:24</sys_created_on>
+        <sys_id>7ac83295c391fa102a9b1e0ed401312a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a95c2d41a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-18 06:59:24</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>f6c832951691fa102e6ed1561df78529</update_guid>
+        <update_guid_history>f6c832951691fa102e6ed1561df78529:-168631487,a378fe153f91fa108ebda0977799042a:-622049432,af78fe153691fa1097e6e400652bc626:-1392787851</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-18 07:00:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>312a2fe202264585b6c632022d99a2e9</sys_id>
+        <sys_metadata>a778fe15c391fa102a9b1e0ed4013122</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_naosu</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">b6787e15c391fa102a9b1e0ed401318f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_a778fe15c391fa102a9b1e0ed4013122</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_a778fe15c391fa102a9b1e0ed4013122">7ac83295c391fa102a9b1e0ed401312a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-18 07:00:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

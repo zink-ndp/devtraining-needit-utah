@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6fcbf657c3cd36502a9b1e0ed4013160" label="遊漁船業者登録申請書の法定代理人が法人である場合の役員" max_length="40" name="x_58872_needit_gyosha_houteidairi_yakuin" type="collection">
+        <element label="氏名" mandatory="true" max_length="40" name="name" type="file_attachment"/>
+        <element choice="1" label="役職" max_length="40" name="yakushoku" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="常勤" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="非常勤" sequence="1" value="0"/>
+            </choice>
+        </element>
+        <element label="添付1" max_length="40" name="u_1" type="file_attachment"/>
+        <element label="フリガナ" max_length="40" name="furigana" type="file_attachment"/>
+        <element label="登録番号" max_length="32" name="touroku_bangou" reference="x_58872_needit_yuugyosen_gyousha" type="reference"/>
+        <index name="index">
+            <element name="touroku_bangou"/>
+        </index>
+    </element>
+</database>

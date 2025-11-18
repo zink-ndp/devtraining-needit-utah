@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="62449185c3153a102a9b1e0ed40131f7" sys_domain="global" table="x_58872_needit_todokede_sho_nyuuryoku" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-17 05:01:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba44d185c3153a102a9b1e0ed4013109</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_todokede_sho_nyuuryoku" name="x_58872_needit_todokede_sho_nyuuryoku" sys_domain="global" view="Default view">62449185c3153a102a9b1e0ed40131f7</sys_ui_form>
+            <sys_ui_section caption="申請情報" display_value="申請情報" name="x_58872_needit_todokede_sho_nyuuryoku" sys_domain="global" view="Default view">bf190149c3913a102a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-17 05:01:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-18 07:13:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05fb3651c3d1fa102a9b1e0ed4013107</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_todokede_sho_nyuuryoku" name="x_58872_needit_todokede_sho_nyuuryoku" sys_domain="global" view="Default view">62449185c3153a102a9b1e0ed40131f7</sys_ui_form>
+            <sys_ui_section caption="添付ファイル" display_value="添付ファイル" name="x_58872_needit_todokede_sho_nyuuryoku" sys_domain="global" view="Default view">8dfb3651c3d1fa102a9b1e0ed4013103</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-18 07:13:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_58872_needit_todokede_sho_nyuuryoku</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-17 05:01:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62449185c3153a102a9b1e0ed40131f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_todokede_sho_nyuuryoku</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_62449185c3153a102a9b1e0ed40131f7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-17 05:01:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="デフォルトビュー" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

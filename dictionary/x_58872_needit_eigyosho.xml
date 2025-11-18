@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d0184985c3913a102a9b1e0ed401311d" label="営業所情報" max_length="40" name="x_58872_needit_eigyosho" type="collection">
+        <element label="建物名・部屋番号" max_length="40" name="tatemonomei" type="string"/>
+        <element label="メールアドレス" mandatory="true" max_length="40" name="mail" type="string"/>
+        <element choice="3" label="都道府県" mandatory="true" max_length="40" name="todoufuken" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="大阪府" sequence="1" value="大阪府"/>
+                <element inactive_on_update="false" label="東京都" sequence="0" value="東京都"/>
+                <element inactive_on_update="false" label="福岡県" sequence="2" value="福岡県"/>
+            </choice>
+        </element>
+        <element label="町名・丁目" mandatory="true" max_length="40" name="choumei" type="string"/>
+        <element label="業務主任者の氏名" max_length="40" name="owner_name" type="string"/>
+        <element label="フリガナ" mandatory="true" max_length="40" name="furigana" type="string"/>
+        <element label="番地" mandatory="true" max_length="40" name="banchi" type="string"/>
+        <element label="郵便番号" mandatory="true" max_length="40" name="code" type="string"/>
+        <element label="市区町村" mandatory="true" max_length="40" name="shikuchouson" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="名称" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="電話番号" mandatory="true" max_length="40" name="denwabangou" type="string"/>
+    </element>
+</database>

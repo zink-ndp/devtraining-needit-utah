@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_customization">
+    <sys_ux_theme_customization action="DELETE">
+        <customization>{
+  "colors": [
+    {
+      "id": "isSecondaryColorUpdated",
+      "value": true,
+      "type": "secondary_color_updated"
+    },
+    {
+      "id": "--now-color--primary",
+      "value": "1, 12, 34",
+      "component": "now-button-circular",
+      "type": "component_base_hook_overridden",
+      "hook": "now-color_brand--primary"
+    }
+  ],
+  "feedback": [],
+  "groupName": "",
+  "imagery": [],
+  "initialValues": {
+    "--now-button-circular--background-color": "--now-color--primary-1",
+    "--now-button-circular--background-color--active": "--now-color--primary-3",
+    "--now-button-circular--background-color--hover": "--now-color--primary-2",
+    "--now-button-circular--border-color": "--now-color--primary-3",
+    "--now-button-circular--border-color--active": "--now-color--primary-3",
+    "--now-button-circular--border-color--hover": "--now-color--primary-3"
+  }
+}</customization>
+        <name>TestTheme</name>
+        <sys_class_name>sys_ux_theme_customization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-11 05:55:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a827a247c305b2502a9b1e0ed4013120</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>TestTheme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_theme_customization_a827a247c305b2502a9b1e0ed4013120</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-11 06:40:41</sys_updated_on>
+        <theme display_value="TestTheme">d027ee07c305b2502a9b1e0ed4013198</theme>
+    </sys_ux_theme_customization>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b5b286dcdb9279184162684e139619dd</instance_id>
+        <instance_name>dev199001</instance_name>
+        <name>sys_ux_theme_customization_a827a247c305b2502a9b1e0ed4013120</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_customization"><sys_ux_theme_customization action="INSERT_OR_UPDATE"><customization>{
+  "colors": [
+    {
+      "id": "isSecondaryColorUpdated",
+      "value": true,
+      "type": "secondary_color_updated"
+    },
+    {
+      "id": "--now-color--primary",
+      "value": "1, 12, 34",
+      "component": "now-button-circular",
+      "type": "component_base_hook_overridden",
+      "hook": "now-color_brand--primary"
+    }
+  ],
+  "feedback": [],
+  "groupName": "",
+  "imagery": [],
+  "initialValues": {
+    "--now-button-circular--background-color": "--now-color--primary-1",
+    "--now-button-circular--background-color--active": "--now-color--primary-3",
+    "--now-button-circular--background-color--hover": "--now-color--primary-2",
+    "--now-button-circular--border-color": "--now-color--primary-3",
+    "--now-button-circular--border-color--active": "--now-color--primary-3",
+    "--now-button-circular--border-color--hover": "--now-color--primary-3"
+  }
+}</customization><name>TestTheme</name><sys_class_name>sys_ux_theme_customization</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-11 05:55:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a827a247c305b2502a9b1e0ed4013120</sys_id><sys_mod_count>5</sys_mod_count><sys_name>TestTheme</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_theme_customization_a827a247c305b2502a9b1e0ed4013120</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-11 06:40:41</sys_updated_on><theme display_value="TestTheme">d027ee07c305b2502a9b1e0ed4013198</theme></sys_ux_theme_customization></record_update>]]></payload>
+        <payload_hash>137465725</payload_hash>
+        <record_name>TestTheme</record_name>
+        <reverted_from/>
+        <source>04f9645bc3b472102a9b1e0ed40131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-11 06:40:41</sys_created_on>
+        <sys_id>d4613e4fc345b2502a9b1e0ed4013178</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a71a52df90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-11 06:40:41</sys_updated_on>
+        <type>Ux Theme Customization</type>
+        <update_guid>14613e4fa845b25066743cc584549d77</update_guid>
+        <update_guid_history>14613e4fa845b25066743cc584549d77:137465725,ec21b24f3a45b2500ac7cc9773a36f1b:-65148322,9b99e6cb7c05b250f680815e9c544250:888689896,b9a7aa878705b250bba431a75e0656dc:760209672,7727e2475c05b250c644144021cc2563:-1413945550,e827a2472705b2506dc9f7318c518023:936533858</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-11 06:44:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_theme_customization">sys_ux_theme_customization</sys_db_object>
+        <sys_id>11e4015efa18478fa9872de9545531f9</sys_id>
+        <sys_metadata>a827a247c305b2502a9b1e0ed4013120</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestTheme</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_theme_customization_a827a247c305b2502a9b1e0ed4013120</sys_update_name>
+        <sys_update_version display_value="sys_ux_theme_customization_a827a247c305b2502a9b1e0ed4013120">d4613e4fc345b2502a9b1e0ed4013178</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-11 06:44:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

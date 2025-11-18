@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f574edc9c3953a102a9b1e0ed40131c8" label="遊漁船遊漁船の名称の名称" max_length="40" name="x_58872_needit_yuugyosen_yuugyosen_no_meishou_no_meishou_t" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="フリガナ" max_length="40" name="t2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="名称" max_length="40" name="t1" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
