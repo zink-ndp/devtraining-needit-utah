@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="31975d06c3d932502a9b1e0ed40131d7" sys_domain="global" table="x_58872_needit_todokede_sho_nyuuryoku" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-20 07:50:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9975d06c3d932502a9b1e0ed40131db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_todokede_sho_nyuuryoku" name="x_58872_needit_todokede_sho_nyuuryoku" sys_domain="global" view="a9975d06c3d932502a9b1e0ed40131a4">31975d06c3d932502a9b1e0ed40131d7</sys_ui_form>
+            <sys_ui_section caption="申請情報" display_value="申請情報" name="x_58872_needit_todokede_sho_nyuuryoku" sys_domain="global" view="a9975d06c3d932502a9b1e0ed40131a4">f9975d06c3d932502a9b1e0ed40131d0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-20 07:50:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-20 07:50:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1975d06c3d932502a9b1e0ed40131dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_todokede_sho_nyuuryoku" name="x_58872_needit_todokede_sho_nyuuryoku" sys_domain="global" view="a9975d06c3d932502a9b1e0ed40131a4">31975d06c3d932502a9b1e0ed40131d7</sys_ui_form>
+            <sys_ui_section caption="遊漁船業者情報" display_value="遊漁船業者情報" name="x_58872_needit_todokede_sho_nyuuryoku" sys_domain="global" view="a9975d06c3d932502a9b1e0ed40131a4">75975d06c3d932502a9b1e0ed40131d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-20 07:50:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-20 07:50:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1975d06c3d932502a9b1e0ed40131e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_todokede_sho_nyuuryoku" name="x_58872_needit_todokede_sho_nyuuryoku" sys_domain="global" view="a9975d06c3d932502a9b1e0ed40131a4">31975d06c3d932502a9b1e0ed40131d7</sys_ui_form>
+            <sys_ui_section caption="廃業届出内容" display_value="廃業届出内容" name="x_58872_needit_todokede_sho_nyuuryoku" sys_domain="global" view="a9975d06c3d932502a9b1e0ed40131a4">fd975d06c3d932502a9b1e0ed40131d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-20 07:50:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_58872_needit_todokede_sho_nyuuryoku</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-20 07:50:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31975d06c3d932502a9b1e0ed40131d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_todokede_sho_nyuuryoku</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_31975d06c3d932502a9b1e0ed40131d7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-20 07:50:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Haigyou" name="Haigyou">a9975d06c3d932502a9b1e0ed40131a4</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

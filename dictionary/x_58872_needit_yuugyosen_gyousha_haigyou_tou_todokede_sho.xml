@@ -9,6 +9,8 @@
                 <element inactive_on_update="false" label="合併により消滅" sequence="1" value="合併により消滅"/>
             </choice>
         </element>
+        <element label="氏名" mandatory="true" max_length="40" name="t1" type="string"/>
+        <element label="承認日" mandatory="true" max_length="40" name="t2" type="glide_date"/>
         <element label="廃止年月日" max_length="40" name="haishi_nengappi" type="glide_date"/>
         <element label="届出日" mandatory="true" max_length="40" name="todokedebi" type="glide_date"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>

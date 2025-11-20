@@ -3,11 +3,11 @@
         <app_config display_value="Manager Portal">9567e52bc33cf2102a9b1e0ed4013125</app_config>
         <description/>
         <extension_point/>
-        <fields/>
+        <fields>sysId</fields>
         <icon/>
         <interoperable>false</interoperable>
         <name>Gyoumu Kitei Henkou Todokede Sho</name>
-        <optional_parameters/>
+        <optional_parameters>edit</optional_parameters>
         <order>0</order>
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
@@ -17,14 +17,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-11-17 06:15:21</sys_created_on>
         <sys_id>ff15e90dc3953a102a9b1e0ed4013103</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Gyoumu Kitei Henkou Todokede Sho</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_app_route_ff15e90dc3953a102a9b1e0ed4013103</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-17 06:15:21</sys_updated_on>
+        <sys_updated_on>2025-11-19 05:43:39</sys_updated_on>
     </sys_ux_app_route>
     <sys_translated_text action="delete_multiple" query="documentkey=ff15e90dc3953a102a9b1e0ed4013103"/>
 </record_update>

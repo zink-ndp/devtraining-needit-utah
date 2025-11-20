@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="アカウント" section_id="55f98f91c355fa102a9b1e0ed40131ab" sys_domain="global" table="sys_user" version="3" view="touroku">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-18 08:14:24</sys_created_on>
+            <sys_id>91f98f91c355fa102a9b1e0ed40131f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="アカウント" display_value="アカウント" name="sys_user" sys_domain="global" view="f347475dc315fa102a9b1e0ed40131b1">55f98f91c355fa102a9b1e0ed40131ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-18 08:14:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-18 08:14:24</sys_created_on>
+            <sys_id>11f98f91c355fa102a9b1e0ed40131f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="アカウント" display_value="アカウント" name="sys_user" sys_domain="global" view="f347475dc315fa102a9b1e0ed40131b1">55f98f91c355fa102a9b1e0ed40131ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-18 08:14:24</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_password</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-18 08:14:24</sys_created_on>
+            <sys_id>9df98f91c355fa102a9b1e0ed40131f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="アカウント" display_value="アカウント" name="sys_user" sys_domain="global" view="f347475dc315fa102a9b1e0ed40131b1">55f98f91c355fa102a9b1e0ed40131ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-18 08:14:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>アカウント</caption>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-18 08:14:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55f98f91c355fa102a9b1e0ed40131ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_55f98f91c355fa102a9b1e0ed40131ab</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-18 08:14:24</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="touroku" name="touroku">f347475dc315fa102a9b1e0ed40131b1</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b5b286dcdb9279184162684e139619dd</instance_id>
+        <instance_name>dev199001</instance_name>
+        <name>sys_ui_section_55f98f91c355fa102a9b1e0ed40131ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="アカウント" section_id="55f98f91c355fa102a9b1e0ed40131ab" sys_domain="global" table="sys_user" version="3" view="touroku"><sys_ui_element action="INSERT_OR_UPDATE"><element>user_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-18 08:14:24</sys_created_on><sys_id>91f98f91c355fa102a9b1e0ed40131f6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="アカウント" display_value="アカウント" name="sys_user" sys_domain="global" view="f347475dc315fa102a9b1e0ed40131b1">55f98f91c355fa102a9b1e0ed40131ab</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-18 08:14:24</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-18 08:14:24</sys_created_on><sys_id>11f98f91c355fa102a9b1e0ed40131f7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="アカウント" display_value="アカウント" name="sys_user" sys_domain="global" view="f347475dc315fa102a9b1e0ed40131b1">55f98f91c355fa102a9b1e0ed40131ab</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-18 08:14:24</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>user_password</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-18 08:14:24</sys_created_on><sys_id>9df98f91c355fa102a9b1e0ed40131f7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="アカウント" display_value="アカウント" name="sys_user" sys_domain="global" view="f347475dc315fa102a9b1e0ed40131b1">55f98f91c355fa102a9b1e0ed40131ab</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-18 08:14:24</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>アカウント</caption><header>false</header><name>sys_user</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-18 08:14:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>55f98f91c355fa102a9b1e0ed40131ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_user</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_section_55f98f91c355fa102a9b1e0ed40131ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-18 08:14:24</sys_updated_on><sys_user/><title>false</title><view display_value="touroku" name="touroku">f347475dc315fa102a9b1e0ed40131b1</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-723833542</payload_hash>
+        <record_name>User</record_name>
+        <reverted_from/>
+        <source>04f9645bc3b472102a9b1e0ed40131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-18 08:14:24</sys_created_on>
+        <sys_id>59f98f91c355fa102a9b1e0ed40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a96077c6c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-18 08:14:24</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>1df98f91e755fa10c9bc3f467cfd6bfa</update_guid>
+        <update_guid_history>1df98f91e755fa10c9bc3f467cfd6bfa:-723833542</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 06:50:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0a77e1bfd93e4fc6bb0d334253e565a4</sys_id>
+        <sys_metadata>55f98f91c355fa102a9b1e0ed40131ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>アカウント</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Sys User">6ccfd821212322105590b8323a2a6bdc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_55f98f91c355fa102a9b1e0ed40131ab</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_55f98f91c355fa102a9b1e0ed40131ab">59f98f91c355fa102a9b1e0ed40131fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 06:50:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

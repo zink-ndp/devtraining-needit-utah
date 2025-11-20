@@ -3,7 +3,7 @@
         <app_config display_value="Manager Portal">9567e52bc33cf2102a9b1e0ed4013125</app_config>
         <description/>
         <extension_point/>
-        <fields>sysId</fields>
+        <fields/>
         <icon/>
         <interoperable>false</interoperable>
         <name>Jikoujouhou Shousai</name>
@@ -17,14 +17,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-11-10 02:12:25</sys_created_on>
         <sys_id>3c6aa83ec3c1fe102a9b1e0ed40131bc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Jikoujouhou Shousai</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_app_route_3c6aa83ec3c1fe102a9b1e0ed40131bc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-10 02:40:38</sys_updated_on>
+        <sys_updated_on>2025-11-19 01:29:06</sys_updated_on>
     </sys_ux_app_route>
     <sys_translated_text action="delete_multiple" query="documentkey=3c6aa83ec3c1fe102a9b1e0ed40131bc"/>
 </record_update>

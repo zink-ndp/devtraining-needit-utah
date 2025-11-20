@@ -20,19 +20,19 @@
             <element>shinsei_shorui_no_shurui</element>
             <hint/>
             <inactive>false</inactive>
-            <label>業務規程変更届出書</label>
+            <label>業務規程変更の届出</label>
             <language>en</language>
             <name>x_58872_needit_todokede_sho_nyuuryoku</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 04:51:13</sys_created_on>
+            <sys_created_on>2025-11-20 07:28:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 04:51:13</sys_updated_on>
-            <value>業務規程変更届出書</value>
+            <sys_updated_on>2025-11-20 07:28:18</sys_updated_on>
+            <value>業務規程変更の届出</value>
         </sys_choice>
     </sys_choice>
 </record_update>

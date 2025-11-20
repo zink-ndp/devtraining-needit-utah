@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="0f08a29fc30d36502a9b1e0ed4013134" label="遊漁船業者登録 申請書" max_length="40" name="x_58872_needit_yuugyosen_gyousha" type="collection">
-        <element label="申請時において既に受けている登録番号" max_length="32" name="existing_registration_number" reference="x_58872_needit_yuugyosen_gyousha" type="reference"/>
+        <element label="登録番号" max_length="32" name="existing_registration_number" reference="x_58872_needit_yuugyosen_gyousha" type="reference"/>
         <element label="メールアドレス" mandatory="true" max_length="40" name="mail" type="string"/>
-        <element default="遊漁船業者登録申請書" label="申請書類の種類" max_length="40" name="shinsei_type" read_only="true" type="string"/>
+        <element default="遊漁船業者登録申請書" label="申請の種類" max_length="40" name="shinsei_type" read_only="true" type="string"/>
         <element label="実務研修証明書" mandatory="true" max_length="40" name="proof_of_practical_training" type="file_attachment"/>
         <element label="氏名" max_length="40" name="corporate_representative_name" type="string"/>
         <element label="フリガナ" max_length="40" name="houteidaihyou_name_furigana" type="string"/>
@@ -12,24 +12,26 @@
         <element label="保険契約又は共済契約の名称" max_length="40" name="insurance_or_mutual_aid_name" type="string"/>
         <element label="保険期間開始日" max_length="255" name="insurance_period_start" type="glide_date"/>
         <element label="市区町村" max_length="40" name="legal_resresentative_shikuchoson" type="string"/>
+        <element label="遊漁船業者ID" max_length="40" name="gyosha_id" read_only="true" type="string"/>
         <element label="電話番号" max_length="40" name="legal_representative_phone" type="phone_number_e164"/>
         <element label="実務経験証明書" mandatory="true" max_length="40" name="proof_of_practical_experience" type="file_attachment"/>
-        <element label="誓約書1" mandatory="true" max_length="40" name="pledge_1" type="file_attachment"/>
+        <element label="誓約書１（遊漁船業者）" mandatory="true" max_length="40" name="pledge_1" type="file_attachment"/>
         <element label="携帯電話" max_length="40" name="mobile_phone" type="phone_number_e164"/>
         <element label="氏名" max_length="40" name="houteidaihyou_name" type="string"/>
-        <element label="氏名又は名称（フリガナ）" mandatory="true" max_length="40" name="shimei_meisho_furigana" type="string"/>
+        <element label="フリガナ" mandatory="true" max_length="40" name="shimei_meisho_furigana" type="string"/>
         <element label="FAX番号" max_length="40" name="fax" type="string"/>
         <element label="番地" mandatory="true" max_length="40" name="address_line1" type="string"/>
         <element label="遊漁船の定員" max_length="40" name="fishing_vessel_capacity" type="integer"/>
-        <element label="利用定員" max_length="40" name="usage_capacity" type="integer"/>
+        <element active="false" label="利用定員" max_length="40" name="usage_capacity" type="integer"/>
         <element label="遊漁船の名称（フリガナ）" max_length="40" name="fishing_vessel_name_furigana" type="string"/>
         <element label="建物名・部屋番号" max_length="40" name="legal_resresentative_tatemono" type="string"/>
         <element label="都道府県" max_length="40" name="legal_resresentative_todoufuken" type="string"/>
         <element label="登録年月日" mandatory="true" max_length="40" name="touroku_date" type="glide_date"/>
         <element label="町名・丁目" max_length="40" name="choumei" type="string"/>
-        <element label="誓約書2" mandatory="true" max_length="40" name="pledge_2" type="file_attachment"/>
+        <element label="誓約書２（遊漁船業務主任者）" mandatory="true" max_length="40" name="pledge_2" type="file_attachment"/>
         <element label="郵便番号" mandatory="true" max_length="8" name="zipcode" type="string"/>
         <element label="申請者名" mandatory="true" max_length="40" name="shinseisha" type="string"/>
+        <element label="町名・丁目" max_length="40" name="legal_representative_choumei" type="string"/>
         <element label="メールアドレス" max_length="40" name="legal_representative_mail" type="string"/>
         <element label="市区町村" mandatory="true" max_length="40" name="city" type="string"/>
         <element label="建物名室番" max_length="40" name="address_line2" type="string"/>
@@ -37,13 +39,16 @@
         <element label="フリガナ" max_length="40" name="corporate_representative_name_furigana" type="string"/>
         <element label="遊漁船の名称" max_length="40" name="fishing_vessel_name" type="string"/>
         <element label="他の都道府県知事の登録状況" max_length="40" name="other_prefecture_registration_status" type="string"/>
-        <element choice="1" label="瀬渡し" max_length="40" name="ferrying_service" type="choice">
+        <element active="false" choice="1" label="瀬渡し" max_length="40" name="ferrying_service" type="choice">
             <choice>
                 <element inactive_on_update="false" label="有" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="無" sequence="1" value="0"/>
             </choice>
         </element>
+        <element active="false" label="Trash2" max_length="40" name="trash2" type="string"/>
+        <element label="申請情報ID" max_length="40" name="shinsei_id" read_only="true" type="string"/>
         <element label="番地" max_length="40" name="legal_resresentative_banchi" type="string"/>
+        <element label="承認者氏名" max_length="40" name="shouninsha_shimei" read_only="true" type="string"/>
         <element label="氏名又は名称" mandatory="true" max_length="40" name="shimei_meisho" type="string"/>
         <element label="営業所名称（フリガナ）" max_length="40" name="office_name_furigana" type="string"/>
         <element label="電話番号" mandatory="true" max_length="40" name="phone" type="phone_number_e164"/>
@@ -63,9 +68,14 @@
         <element label="業務規定" mandatory="true" max_length="40" name="operational_implementation_system" type="file_attachment"/>
         <element label="郵便番号" max_length="8" name="legal_representative_zipcode" type="string"/>
         <element display="true" label="登録番号" mandatory="true" max_length="40" name="touroku_number" type="string"/>
+        <element active="false" label="trash" max_length="40" name="trash" type="string"/>
         <element label="法第12条に規定する（遊漁船業務主任者）の氏名" max_length="40" name="fishing_vessel_supervisor_name" type="string"/>
         <element label="填補限度額（定員一人当たりの額）" max_length="40" name="compensation_limit_per_person" type="string"/>
         <element label="保険期間終了日" max_length="255" name="insurance_period_end" type="glide_date"/>
+        <element label="申請ステータス" max_length="40" name="shinsei_status" read_only="true" type="string"/>
+        <element label="承認日" max_length="255" name="shounin_date" read_only="true" type="glide_date"/>
+        <element active="false" label="Trash1" max_length="40" name="trash1" type="string"/>
+        <element active="false" label="trash5" max_length="40" name="trash5" type="string"/>
         <element label="法人である場合の代表者" max_length="1024" name="houjin_daihyousha" reference="x_58872_needit_gyousha_houjin_daihyou" type="glide_list"/>
     </element>
 </database>

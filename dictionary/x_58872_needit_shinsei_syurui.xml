@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7e03f8b9c315be102a9b1e0ed40131ea" label="申請種類" max_length="40" name="x_58872_needit_shinsei_syurui" type="collection">
+        <element label="役員情報" max_length="40" name="yakuin" type="file_attachment"/>
+        <element label="登録申請" mandatory="true" max_length="40" name="touroku" type="file_attachment"/>
+        <element display="true" label="Number" max_length="40" name="number" type="integer"/>
+        <element label="他都道府県登録情報" max_length="40" name="tatodoufuken" type="file_attachment"/>
+        <element label="申請種類" max_length="40" name="name" type="string"/>
+        <element label="営業所情報" mandatory="true" max_length="40" name="eigyo" type="file_attachment"/>
+        <element label="遊漁船情報" mandatory="true" max_length="40" name="yuugyosen" type="file_attachment"/>
+    </element>
+</database>

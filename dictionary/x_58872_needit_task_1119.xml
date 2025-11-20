@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c7d17665c3917e102a9b1e0ed4013163" label="立入検査情報" max_length="40" name="x_58872_needit_task_1119" type="collection">
+        <element label="立入検査指導事項" max_length="10000" name="t4" type="string"/>
+        <element label="立入検査実施年月日" max_length="40" name="t3" type="glide_date"/>
+        <element label="遊漁船業者情報" max_length="32" name="t5" reference="x_58872_needit_yuugyosen_gyousha" type="reference"/>
+        <element display="true" label="立入検査情報ID" max_length="40" name="id" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="t5"/>
+        </index>
+    </element>
+</database>

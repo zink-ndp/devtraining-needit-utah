@@ -5,9 +5,9 @@
         <element label="フリガナ" max_length="40" name="t14" type="string"/>
         <element label="誓約書１（遊漁船業者）" max_length="40" name="u_1" type="file_attachment"/>
         <element label="誓約書２（遊漁船業務主任者）" max_length="40" name="u_5" type="file_attachment"/>
-        <element choice="3" default="T00001" label="登録番号" max_length="40" name="t1" read_only="true" type="choice">
+        <element choice="3" default="○○県 第××号" label="登録番号" max_length="40" name="t1" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="T00001" sequence="0" value="T00001"/>
+                <element inactive_on_update="false" label="○○県 第××号" sequence="0" value="○○県 第××号"/>
             </choice>
         </element>
         <element choice="3" default="2025-11-11" label="登録年月日" max_length="40" name="t2" read_only="true" type="choice">

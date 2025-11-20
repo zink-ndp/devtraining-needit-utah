@@ -20,19 +20,19 @@
             <element>f2</element>
             <hint/>
             <inactive>false</inactive>
-            <label>エービーシーかぶしきがいしゃ</label>
+            <label>エービーシーカブシキガイシャ</label>
             <language>en</language>
             <name>x_58872_needit_eigyoujo_no_meishou_oyobi_juusho_t</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 06:07:33</sys_created_on>
+            <sys_created_on>2025-11-20 07:08:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 06:07:33</sys_updated_on>
-            <value>エービーシーかぶしきがいしゃ</value>
+            <sys_updated_on>2025-11-20 07:08:45</sys_updated_on>
+            <value>エービーシーカブシキガイシャ</value>
         </sys_choice>
     </sys_choice>
 </record_update>

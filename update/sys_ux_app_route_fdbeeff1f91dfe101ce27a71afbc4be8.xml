@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config/>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>Settings Page</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>settings</route_type>
+        <screen_type display_value="Settings Page">f9beeff1871dfe10a2c271b979ee03e8</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 00:11:58</sys_created_on>
+        <sys_id>fdbeeff1f91dfe101ce27a71afbc4be8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Settings Page</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_app_route_fdbeeff1f91dfe101ce27a71afbc4be8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 00:11:58</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=fdbeeff1f91dfe101ce27a71afbc4be8"/>
+</record_update>

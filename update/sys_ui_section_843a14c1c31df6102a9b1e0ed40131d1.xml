@@ -4,13 +4,13 @@
             <element>legal_representative_name_furigana</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>65eb94c5c31df6102a9b1e0ed401318f</sys_id>
+            <sys_created_on>2025-11-20 04:02:07</sys_created_on>
+            <sys_id>5d63680ac3d132502a9b1e0ed40131e3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
+            <sys_updated_on>2025-11-20 04:02:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>legal_representative_zipcode</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>25eb94c5c31df6102a9b1e0ed4013190</sys_id>
+            <sys_created_on>2025-11-20 04:02:07</sys_created_on>
+            <sys_id>d963680ac3d132502a9b1e0ed40131e4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
+            <sys_updated_on>2025-11-20 04:02:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,153 +32,125 @@
             <element>legal_resresentative_shikuchoson</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>e1eb94c5c31df6102a9b1e0ed4013191</sys_id>
+            <sys_created_on>2025-11-20 04:02:07</sys_created_on>
+            <sys_id>5963680ac3d132502a9b1e0ed40131e5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>a1eb94c5c31df6102a9b1e0ed4013192</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>legal_representative_name_fugirana</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>61eb94c5c31df6102a9b1e0ed4013193</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>legal_resresentative_todoufuken</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>21eb94c5c31df6102a9b1e0ed4013194</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
+            <sys_updated_on>2025-11-20 04:02:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>legal_resresentative_banchi</element>
-            <position>6</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>fdeb94c5c31df6102a9b1e0ed4013194</sys_id>
+            <sys_created_on>2025-11-20 04:02:07</sys_created_on>
+            <sys_id>d563680ac3d132502a9b1e0ed40131e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
+            <sys_updated_on>2025-11-20 04:02:07</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>bdeb94c5c31df6102a9b1e0ed4013195</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>legal_resresentative_tatemono</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>7deb94c5c31df6102a9b1e0ed4013196</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>3deb94c5c31df6102a9b1e0ed4013197</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>legal_representative_phone</element>
-            <position>10</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>f9eb94c5c31df6102a9b1e0ed4013198</sys_id>
+            <sys_created_on>2025-11-20 04:02:07</sys_created_on>
+            <sys_id>5563680ac3d132502a9b1e0ed40131e7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
+            <sys_updated_on>2025-11-20 04:02:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>11</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>b9eb94c5c31df6102a9b1e0ed4013199</sys_id>
+            <sys_created_on>2025-11-20 04:02:07</sys_created_on>
+            <sys_id>d163680ac3d132502a9b1e0ed40131e8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
+            <sys_updated_on>2025-11-20 04:02:07</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>legal_representative_mail</element>
-            <position>12</position>
+            <element>legal_representative_name_fugirana</element>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>79eb94c5c31df6102a9b1e0ed401319a</sys_id>
+            <sys_created_on>2025-11-20 04:02:07</sys_created_on>
+            <sys_id>5163680ac3d132502a9b1e0ed40131e9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
+            <sys_updated_on>2025-11-20 04:02:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legal_resresentative_todoufuken</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-20 04:02:07</sys_created_on>
+            <sys_id>dd63680ac3d132502a9b1e0ed40131e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-20 04:02:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legal_representative_choumei</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-20 04:02:07</sys_created_on>
+            <sys_id>5d63680ac3d132502a9b1e0ed40131ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-20 04:02:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legal_resresentative_tatemono</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-20 04:02:07</sys_created_on>
+            <sys_id>d963680ac3d132502a9b1e0ed40131eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-20 04:02:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legal_representative_mail</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-20 04:02:07</sys_created_on>
+            <sys_id>5963680ac3d132502a9b1e0ed40131ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="未成年である場合の法定代理人の氏名又は名称及び住所" display_value="未成年である場合の法定代理人の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">843a14c1c31df6102a9b1e0ed40131d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-20 04:02:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -204,7 +176,7 @@
             <sys_updated_on>2025-11-17 00:47:58</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="デフォルトビュー" name="NULL">Default view</view>
+            <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

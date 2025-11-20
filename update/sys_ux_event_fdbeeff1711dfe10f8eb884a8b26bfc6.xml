@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MODAL_SELECTED_RELAY_f1beeff1bf1dfe10240093bfcedfe8f4</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Toggle Modal Relay</label>
+        <props>[{"name":"modalId","label":"Modal","fieldType":"string","interfaceApiName":"global.modal","valueType":"string"},{"name":"showModal","label":"Show Modal","fieldType":"boolean","valueType":"string"},{"name":"displayOptions","label":"Modal display options","fieldType":"json","valueType":"string"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 00:11:58</sys_created_on>
+        <sys_id>fdbeeff1711dfe10f8eb884a8b26bfc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Toggle Modal Relay</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_event_fdbeeff1711dfe10f8eb884a8b26bfc6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 00:11:58</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=fdbeeff1711dfe10f8eb884a8b26bfc6"/>
+</record_update>

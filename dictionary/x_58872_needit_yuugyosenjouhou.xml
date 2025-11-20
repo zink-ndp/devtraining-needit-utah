@@ -3,7 +3,7 @@
         <element label="保険期間終了" max_length="40" name="insurance_end" type="glide_date"/>
         <element label="填補限度額" max_length="255" name="compensation_limit" type="integer"/>
         <element label="フリガナ" max_length="40" name="furigana" type="string"/>
-        <element display="true" label="遊漁船番号" max_length="40" name="boat_number" type="string"/>
+        <element display="true" label="登録番号" max_length="40" name="boat_number" type="string"/>
         <element label="保険契約又は共済契約の名称" max_length="40" name="insurance_contract_name" type="string"/>
         <element label="保険期間開始" max_length="255" name="insurance_start" type="glide_date"/>
         <element choice="1" label="遊漁船の定員" max_length="40" name="capacity" type="integer">

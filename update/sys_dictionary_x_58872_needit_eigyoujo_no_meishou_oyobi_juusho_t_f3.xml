@@ -5,13 +5,13 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>業務主任者の氏名</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>山田太郎</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,7 +27,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">phone_number_e164</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_58872_needit_eigyoujo_no_meishou_oyobi_juusho_t</name>
@@ -53,7 +53,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_dictionary_x_58872_needit_eigyoujo_no_meishou_oyobi_juusho_t_f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-17 06:07:53</sys_updated_on>
+        <sys_updated_on>2025-11-20 07:09:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

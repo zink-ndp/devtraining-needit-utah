@@ -1,17 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="9319cd09c3913a102a9b1e0ed40131c7" label="届出書入力" max_length="40" name="x_58872_needit_todokede_sho_nyuuryoku" type="collection">
-        <element choice="3" default="業務規程変更届出書" label="申請書類の種類" mandatory="true" max_length="40" name="shinsei_shorui_no_shurui" read_only="true" type="choice">
+        <element choice="3" default="廃業の届出" label="申請の種類" max_length="40" name="q3" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="業務規程変更届出書" sequence="0" value="業務規程変更届出書"/>
+                <element inactive_on_update="false" label="廃業の届出" sequence="0" value="廃業の届出"/>
             </choice>
         </element>
-        <element label="変更年月日" max_length="10000" name="t1" type="string"/>
+        <element choice="3" default="〇〇〇株式会社" label="氏名又は名称" max_length="40" name="t8" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="〇〇〇株式会社" sequence="0" value="〇〇〇株式会社"/>
+            </choice>
+        </element>
+        <element choice="3" default="業務規程変更の届出" label="申請の種類" mandatory="true" max_length="40" name="shinsei_shorui_no_shurui" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="業務規程変更の届出" sequence="0" value="業務規程変更の届出"/>
+            </choice>
+        </element>
+        <element choice="3" default="GS1001" label="遊漁船業者ID" max_length="40" name="t5" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="GS1001" sequence="0" value="GS1001"/>
+            </choice>
+        </element>
+        <element choice="3" default="—" label="承認者氏名" max_length="40" name="t4" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="—" sequence="1" value="—"/>
+                <element inactive_on_update="false" label="山田太郎" sequence="0" value="山田太郎"/>
+            </choice>
+        </element>
+        <element label="変更年月日" mandatory="true" max_length="10000" name="t1" type="string"/>
         <element label="変更前" mandatory="true" max_length="10000" name="henkou_mae" type="string"/>
+        <element choice="3" default="—" label="申請情報ID" max_length="40" name="t2" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="—" sequence="1" value="—"/>
+                <element inactive_on_update="false" label="SN1001" sequence="0" value="SN1001"/>
+            </choice>
+        </element>
+        <element choice="3" default="—" label="申請ステータス" max_length="40" name="temp" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="—" sequence="3" value="—"/>
+                <element inactive_on_update="false" label="ー" sequence="0" value="ー"/>
+                <element inactive_on_update="false" label="承認済" sequence="2" value="承認済"/>
+                <element inactive_on_update="false" label="新規" sequence="1" value="新規"/>
+            </choice>
+        </element>
+        <element choice="3" default="2025-11-11" label="登録年月日" max_length="40" name="t7" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2025-11-11" sequence="0" value="2025-11-11"/>
+            </choice>
+        </element>
+        <element choice="3" default="—" label="承認日" max_length="40" name="t10" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="—" sequence="1" value="—"/>
+                <element inactive_on_update="false" label="2025-11-11" sequence="0" value="2025-11-11"/>
+            </choice>
+        </element>
         <element label="届出日" mandatory="true" max_length="40" name="todokede_bi" type="glide_date"/>
+        <element choice="3" default="○○県 第××号" label="登録番号" max_length="40" name="t6" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="○○県 第××号" sequence="0" value="○○県 第××号"/>
+            </choice>
+        </element>
+        <element choice="1" label="廃止の事由" mandatory="true" max_length="40" name="q2" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="遊漁船業を廃止" sequence="4" value="遊漁船業を廃止"/>
+                <element inactive_on_update="false" label="破産手続開始の決定により解散" sequence="2" value="破産手続開始の決定により解散"/>
+                <element inactive_on_update="false" label="合併および破産手続開始の決定以外の理由により解散" sequence="3" value="合併および破産手続開始の決定以外の理由により解散"/>
+                <element inactive_on_update="false" label="合併により消滅" sequence="1" value="合併により消滅"/>
+                <element inactive_on_update="false" label="死亡" sequence="0" value="死亡"/>
+            </choice>
+        </element>
         <element label="業務規程変更届出書" mandatory="true" max_length="40" name="gyoumu_kitei_henkou_todokede_sho" type="file_attachment"/>
         <element label="変更後" mandatory="true" max_length="10000" name="henkou_go" type="string"/>
         <element label="変更年月日" mandatory="true" max_length="40" name="henkou_nengappi" type="glide_date"/>
+        <element choice="3" default="〇〇〇カブシキガイシャ" label="フリガナ" max_length="40" name="t9" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="〇〇〇カブシキガイシャ" sequence="0" value="〇〇〇カブシキガイシャ"/>
+            </choice>
+        </element>
         <element label="変更に係る事項" mandatory="true" max_length="10000" name="henkou_ni_kakaru_jikou" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="廃止年月日" mandatory="true" max_length="40" name="q1" type="glide_date"/>
     </element>
 </database>

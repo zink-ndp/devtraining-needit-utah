@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation action="DELETE" element="t1" label="遊漁船業者情報" language="ja" table="x_58872_needit_task_1119">
+        <sys_documentation action="DELETE">
+            <element>t1</element>
+            <help/>
+            <hint/>
+            <label>遊漁船業者情報</label>
+            <language>ja</language>
+            <name>x_58872_needit_task_1119</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-19 08:01:29</sys_created_on>
+            <sys_id>46909031c311be102a9b1e0ed401319d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>遊漁船業者情報</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_documentation_x_58872_needit_task_1119_t1_ja</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-19 08:01:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b5b286dcdb9279184162684e139619dd</instance_id>
+        <instance_name>dev199001</instance_name>
+        <name>sys_documentation_x_58872_needit_task_1119_t1_ja</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="t1" label="遊漁船業者情報" language="ja" table="x_58872_needit_task_1119"><sys_documentation action="INSERT_OR_UPDATE"><element>t1</element><help/><hint/><label>遊漁船業者情報</label><language>ja</language><name>x_58872_needit_task_1119</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-19 08:01:29</sys_created_on><sys_id>46909031c311be102a9b1e0ed401319d</sys_id><sys_mod_count>2</sys_mod_count><sys_name>遊漁船業者情報</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_documentation_x_58872_needit_task_1119_t1_ja</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-19 08:01:30</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+        <payload_hash>987570086</payload_hash>
+        <record_name>立入検査情報.立入検査情報ID</record_name>
+        <reverted_from/>
+        <source>04f9645bc3b472102a9b1e0ed40131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-19 08:01:30</sys_created_on>
+        <sys_id>9290d031c311be102a9b1e0ed4013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a9b220a2b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-19 08:01:30</sys_updated_on>
+        <type>フィールドラベル</type>
+        <update_guid>5e90d0318f11be105cc2e8df84ef8d1f</update_guid>
+        <update_guid_history>5e90d0318f11be105cc2e8df84ef8d1f:987570086,0290d0310611be10a5d6da348cba9b1a:-1865106144,0a9090314d11be10545d1680e6fcd7a0:1131699342</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-19 08:07:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_documentation">sys_documentation</sys_db_object>
+        <sys_id>2f62e89d4b8c4e1a936736b80efce5a9</sys_id>
+        <sys_metadata>46909031c311be102a9b1e0ed401319d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>遊漁船業者情報</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">ce32f2a5c3917e102a9b1e0ed40131f5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_documentation_x_58872_needit_task_1119_t1_ja</sys_update_name>
+        <sys_update_version display_value="sys_documentation_x_58872_needit_task_1119_t1_ja">9290d031c311be102a9b1e0ed4013153</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-19 08:07:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

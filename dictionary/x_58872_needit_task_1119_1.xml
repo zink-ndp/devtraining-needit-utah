@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="aa05fe2dc3917e102a9b1e0ed4013152" label="行政処分" max_length="40" name="x_58872_needit_task_1119_1" type="collection">
+        <element label="遊漁船業者情報ID" max_length="40" name="id" type="string"/>
+        <element label="遊漁船業の適正化に関する法律第" max_length="40" name="t7" type="string"/>
+        <element label="事業停止終了日" max_length="40" name="t11" read_only="true" type="glide_date"/>
+        <element label="登録の取消事事由" max_length="40" name="t6" type="string"/>
+        <element label="事業停止の理由" max_length="40" name="t10" type="string"/>
+        <element choice="1" label="行政処分種類" max_length="40" name="t3" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="業務改善" sequence="0" value="業務改善"/>
+                <element inactive_on_update="false" label="業務取消し" sequence="1" value="業務取消し"/>
+                <element inactive_on_update="false" label="事業停止" sequence="2" value="事業停止"/>
+            </choice>
+        </element>
+        <element label="事業停止開始日" max_length="40" name="t12" read_only="true" type="glide_date"/>
+        <element label="登録取消発令年月日" max_length="40" name="t5" read_only="true" type="glide_date"/>
+        <element label="行政処分情報ID" max_length="40" name="t1" type="string"/>
+        <element label="行政処分内容" max_length="40" name="t4" type="string"/>
+        <element label="事業停止期間" max_length="40" name="t9" type="string"/>
+        <element label="事業停止命令発令年月日" max_length="40" name="t8" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -3,16 +3,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:41:18</sys_created_on>
+            <sys_created_on>2025-11-12 02:10:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9ea85001c31df6102a9b1e0ed40131d7</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>3b2d761bc3cd36502a9b1e0ed4013135</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_58872_needit_yuugyosen_gyousha" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">ff2d761bc3cd36502a9b1e0ed401312e</sys_ui_form>
-            <sys_ui_section caption="申請情報" display_value="申請情報" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">1aa85001c31df6102a9b1e0ed40131bc</sys_ui_section>
+            <sys_ui_section caption="遊漁船業者情報" display_value="遊漁船業者情報" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">9308a29fc30d36502a9b1e0ed4013131</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:41:18</sys_updated_on>
+            <sys_updated_on>2025-11-20 01:29:05</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
@@ -20,41 +20,41 @@
             <sys_created_on>2025-11-12 02:10:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3b2d761bc3cd36502a9b1e0ed4013135</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_58872_needit_yuugyosen_gyousha" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">ff2d761bc3cd36502a9b1e0ed401312e</sys_ui_form>
-            <sys_ui_section caption="遊漁船業者情報" display_value="遊漁船業者情報" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">9308a29fc30d36502a9b1e0ed4013131</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:41:18</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-12 02:10:45</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>b32d761bc3cd36502a9b1e0ed4013137</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_58872_needit_yuugyosen_gyousha" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">ff2d761bc3cd36502a9b1e0ed401312e</sys_ui_form>
             <sys_ui_section caption="遊漁船業者の氏名又は名称及び住所" display_value="遊漁船業者の氏名又は名称及び住所" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">f32d361bc3cd36502a9b1e0ed401318a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:41:18</sys_updated_on>
+            <sys_updated_on>2025-11-20 01:29:05</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-11-12 03:00:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>90988353c34176502a9b1e0ed40131ee</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_58872_needit_yuugyosen_gyousha" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">ff2d761bc3cd36502a9b1e0ed401312e</sys_ui_form>
             <sys_ui_section caption="法人である場合の代表者の氏名" display_value="法人である場合の代表者の氏名" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">58988353c34176502a9b1e0ed40131e6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:44:13</sys_updated_on>
+            <sys_updated_on>2025-11-20 01:29:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-20 01:29:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2750084ec39dfe102a9b1e0ed401313a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_yuugyosen_gyousha" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">ff2d761bc3cd36502a9b1e0ed401312e</sys_ui_form>
+            <sys_ui_section caption="申請時において既に受けている登録" display_value="申請時において既に受けている登録" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">eb50c44ec39dfe102a9b1e0ed40131fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-20 01:29:05</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>4</position>
@@ -117,7 +117,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-11-12 02:10:45</sys_updated_on>
             <sys_user/>
-            <view display_value="デフォルトビュー" name="NULL">Default view</view>
+            <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

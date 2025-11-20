@@ -20,19 +20,19 @@
             <element>t1</element>
             <hint/>
             <inactive>false</inactive>
-            <label>T00001</label>
+            <label>○○県 第××号</label>
             <language>en</language>
             <name>x_58872_needit_yuugyosen_gyousha_jouhou_t</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 05:44:18</sys_created_on>
+            <sys_created_on>2025-11-20 04:27:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 05:44:18</sys_updated_on>
-            <value>T00001</value>
+            <sys_updated_on>2025-11-20 04:27:19</sys_updated_on>
+            <value>○○県 第××号</value>
         </sys_choice>
     </sys_choice>
 </record_update>

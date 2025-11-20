@@ -4,41 +4,41 @@
             <element>u_1</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 05:41:00</sys_created_on>
-            <sys_id>2c4d590dc3553a102a9b1e0ed4013133</sys_id>
+            <sys_created_on>2025-11-20 04:30:19</sys_created_on>
+            <sys_id>62d9ac86c31532502a9b1e0ed4013188</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="添付ファイル" display_value="添付ファイル" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" sys_domain="global" view="Default view">e84d190dc3553a102a9b1e0ed40131b2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 05:41:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_2</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 05:41:00</sys_created_on>
-            <sys_id>a84d590dc3553a102a9b1e0ed4013134</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="添付ファイル" display_value="添付ファイル" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" sys_domain="global" view="Default view">e84d190dc3553a102a9b1e0ed40131b2</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 05:41:00</sys_updated_on>
+            <sys_updated_on>2025-11-20 04:30:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_5</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 05:41:00</sys_created_on>
-            <sys_id>284d590dc3553a102a9b1e0ed4013135</sys_id>
+            <sys_created_on>2025-11-20 04:30:19</sys_created_on>
+            <sys_id>eed9ac86c31532502a9b1e0ed4013188</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="添付ファイル" display_value="添付ファイル" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" sys_domain="global" view="Default view">e84d190dc3553a102a9b1e0ed40131b2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 05:41:00</sys_updated_on>
+            <sys_updated_on>2025-11-20 04:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_6</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-20 04:30:19</sys_created_on>
+            <sys_id>6ed9ac86c31532502a9b1e0ed4013189</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="添付ファイル" display_value="添付ファイル" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" sys_domain="global" view="Default view">e84d190dc3553a102a9b1e0ed40131b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-20 04:30:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 05:41:00</sys_created_on>
-            <sys_id>a44d590dc3553a102a9b1e0ed4013136</sys_id>
+            <sys_created_on>2025-11-20 04:30:19</sys_created_on>
+            <sys_id>ead9ac86c31532502a9b1e0ed401318a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="添付ファイル" display_value="添付ファイル" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" sys_domain="global" view="Default view">e84d190dc3553a102a9b1e0ed40131b2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 05:41:00</sys_updated_on>
+            <sys_updated_on>2025-11-20 04:30:19</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>u_4</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 05:41:00</sys_created_on>
-            <sys_id>244d590dc3553a102a9b1e0ed4013137</sys_id>
+            <sys_created_on>2025-11-20 04:30:19</sys_created_on>
+            <sys_id>6ad9ac86c31532502a9b1e0ed401318b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="添付ファイル" display_value="添付ファイル" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" sys_domain="global" view="Default view">e84d190dc3553a102a9b1e0ed40131b2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 05:41:00</sys_updated_on>
+            <sys_updated_on>2025-11-20 04:30:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,27 +74,13 @@
             <element>u_3</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 05:41:00</sys_created_on>
-            <sys_id>a04d590dc3553a102a9b1e0ed4013138</sys_id>
+            <sys_created_on>2025-11-20 04:30:19</sys_created_on>
+            <sys_id>e6d9ac86c31532502a9b1e0ed401318c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="添付ファイル" display_value="添付ファイル" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" sys_domain="global" view="Default view">e84d190dc3553a102a9b1e0ed40131b2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 05:41:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_6</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 05:41:00</sys_created_on>
-            <sys_id>204d590dc3553a102a9b1e0ed4013139</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="添付ファイル" display_value="添付ファイル" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" sys_domain="global" view="Default view">e84d190dc3553a102a9b1e0ed40131b2</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 05:41:00</sys_updated_on>
+            <sys_updated_on>2025-11-20 04:30:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -120,7 +106,7 @@
             <sys_updated_on>2025-11-17 05:41:00</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="デフォルトビュー" name="NULL">Default view</view>
+            <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

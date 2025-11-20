@@ -1,0 +1,3251 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles>[
+    {
+        "definitionId": "a985303e4300021000bb7ff8abb8f2ba",
+        "instanceId": "playbookfocusedhorizontal_1",
+        "name": "Playbook Focused Horizontal 1",
+        "useByReference": false
+    }
+]</bundles>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "bundleLink": {
+            "bundleInstanceId": "playbookfocusedhorizontal_1",
+            "elementType": "member",
+            "originalElementId": "modalContainerViewport_record"
+        },
+        "definition": {
+            "id": "61c315e9ccb8970546c30f3e2da41a32",
+            "type": "MACROPONENT_VIEWPORT"
+        },
+        "elementId": "modalcontainerviewport_record",
+        "elementLabel": "Modal Container (Viewport) - Record",
+        "eventMappings": [],
+        "extensionPoints": [
+            {
+                "controllerDependencyMap": null,
+                "controllerElementId": "record",
+                "name": "Record page modals",
+                "sysId": "e38960c1c30301103581a5a1d840dd45"
+            }
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [],
+        "overrides": null,
+        "preset": {
+            "controllerElementId": "record",
+            "disabledEventTargetIds": [],
+            "id": "b76d5b8043432110379ea5dccbb8f297"
+        },
+        "propertyValues": {},
+        "slot": null,
+        "styles": {
+            "width": "100%"
+        }
+    },
+    {
+        "bundleLink": {
+            "bundleInstanceId": "playbookfocusedhorizontal_1",
+            "elementType": "member",
+            "originalElementId": "reference_info_popover_record"
+        },
+        "definition": {
+            "id": "de328a48e97cdcc50a5043e029bf0a66",
+            "type": "MACROPONENT"
+        },
+        "elementId": "reference_info_popover_record",
+        "elementLabel": "Reference Info Popover - Record",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "bundleLink": {
+                        "bundleInstanceId": "playbookfocusedhorizontal_1",
+                        "elementType": "member",
+                        "originalElementId": "reference_info_content_record"
+                    },
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "reference_info_content_record",
+                    "elementLabel": "Reference Info Content - Record",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "bundleLink": {
+                                    "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                    "elementType": "member",
+                                    "originalElementId": "open_record_button_record"
+                                },
+                                "definition": {
+                                    "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "open_record_button_record",
+                                "elementLabel": "Open Record Button - Record",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": {
+                                    "controllerElementId": "record",
+                                    "id": "2c9b775ba59d59482acacfd67c793517"
+                                },
+                                "propertyValues": {
+                                    "configAria": {}
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "bundleLink": {
+                                    "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                    "elementType": "member",
+                                    "originalElementId": "display_only_record_form_record"
+                                },
+                                "definition": {
+                                    "id": "f4d3254a798ef092d9023d408f257789",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "display_only_record_form_record",
+                                "elementLabel": "Display Only Form - Record",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": {
+                                    "controllerElementId": "record",
+                                    "id": "d47e3591999fa213338037c11623e30f"
+                                },
+                                "propertyValues": {},
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "open_record_button",
+                                        "styles": {
+                                            "align-self": "flex-end",
+                                            "position": "absolute",
+                                            "z-index": "99"
+                                        }
+                                    },
+                                    {
+                                        "element_id": "display_only_record_form",
+                                        "styles": {
+                                            "min-height": "80px",
+                                            "min-width": "504px"
+                                        }
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "align-items": "stretch",
+                                    "display": "flex",
+                                    "flex-direction": "column",
+                                    "margin": "var(--now-scalable-space--md)",
+                                    "padding-inline-end": "calc(var(--now-scale-space--sm, 1)*0.5rem)",
+                                    "padding-top": "calc(var(--now-scale-space--sm, 1)*0.5rem)"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "hideEmptyStateUi": true,
+                        "includeAriaHeading": false,
+                        "slotWrapperBehavior": "fullheight",
+                        "type": "section"
+                    },
+                    "slot": "content",
+                    "styles": {
+                        "width": "250px"
+                    }
+                }
+            ]
+        },
+        "preset": {
+            "controllerElementId": "record",
+            "id": "79ebea45f4861cca5a2606fb0217d3a6"
+        },
+        "propertyValues": {
+            "configAria": {},
+            "positions": {
+                "type": "JSON_LITERAL"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "column_layout_1",
+        "elementLabel": "Column layout 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "__sIteehhPeehhEQDkpfeeddLaaBeehhaaBeedlffu__column_1",
+                    "elementLabel": "Column 1",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "bundleLink": {
+                                    "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                    "elementType": "root",
+                                    "originalElementId": "focused_horizontal_container"
+                                },
+                                "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "focused_horizontal_container",
+                                "elementLabel": "Focused Horizontal Container",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "bundleLink": {
+                                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                "elementType": "member",
+                                                "originalElementId": "playbook_modals"
+                                            },
+                                            "definition": {
+                                                "id": "9e9a9999bc08c532cf101d791dc31667",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "playbook_modals",
+                                            "elementLabel": "Playbook Modals",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": {
+                                                "controllerElementId": "playbook_custom_layout",
+                                                "disabledEventTargetIds": [],
+                                                "id": "32d3bef1efa111dd6a91ed7edae7f04d"
+                                            },
+                                            "propertyValues": {},
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "bundleLink": {
+                                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                "elementType": "member",
+                                                "originalElementId": "playbook_picker_label"
+                                            },
+                                            "definition": {
+                                                "id": "bb63b710d208796b7ceaab7812bddef1",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "playbook_picker_label",
+                                            "elementLabel": "Playbook Picker Label",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "binding": {
+                                                    "address": [
+                                                        "playbook_custom_layout",
+                                                        "compactMode"
+                                                    ]
+                                                },
+                                                "type": "DATA_OUTPUT_BINDING"
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "label": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "Playbook"
+                                                    }
+                                                },
+                                                "reversed": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "truncated": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "value": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": ""
+                                                    }
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "bundleLink": {
+                                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                "elementType": "member",
+                                                "originalElementId": "playbook_picker"
+                                            },
+                                            "definition": {
+                                                "id": "22c67d9a1e515fef66442e1469bed3a2",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "playbook_picker",
+                                            "elementLabel": "Playbook Picker",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "binding": {
+                                                    "address": [
+                                                        "playbook_custom_layout",
+                                                        "compactMode"
+                                                    ]
+                                                },
+                                                "type": "DATA_OUTPUT_BINDING"
+                                            },
+                                            "preset": {
+                                                "controllerElementId": "playbook_custom_layout",
+                                                "disabledEventTargetIds": [],
+                                                "id": "a41afa67e42b9d30cff2bc8170b6eb5c"
+                                            },
+                                            "propertyValues": {
+                                                "configAria": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "disabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "icon": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "items": {
+                                                    "script": {
+                                                        "apiVersion": "2.0.0",
+                                                        "controllerElementId": null,
+                                                        "inlineScript": "/**\n * @param {params} params\n * @param {api} params.api\n * @param {TransformApiHelpers} params.helpers\n */\nfunction evaluateProperty({ api }) {\n\tconst playbooksByContextId = api.data.playbook_custom_layout.playbooksByContextId;\n\n\tif (!playbooksByContextId || !Object.keys(playbooksByContextId).length)\n\t\treturn;\n\n\tconst playbookItems = Object.values(playbooksByContextId).map(\n\t\t({ sysId, title }) =&gt; {\n\t\t\tif (!sysId || !title) return;\n\n\t\t\treturn {\n\t\t\t\tid: sysId,\n\t\t\t\tlabel: title\n\t\t\t};\n\t\t}\n\t);\n\n\treturn playbookItems;\n}\n",
+                                                        "scriptSysId": "4e95b07e4300021000bb7ff8abb8f21e",
+                                                        "target": null
+                                                    },
+                                                    "type": "CLIENT_TRANSFORM_SCRIPT"
+                                                },
+                                                "label": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "labelPosition": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "top"
+                                                },
+                                                "labelSize": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "opened": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "panelFitProps": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {}
+                                                },
+                                                "search": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "none"
+                                                },
+                                                "selectedItems": {
+                                                    "container": [
+                                                        {
+                                                            "binding": {
+                                                                "address": [
+                                                                    "playbook_custom_layout",
+                                                                    "selectedItem",
+                                                                    "playbookContextId"
+                                                                ]
+                                                            },
+                                                            "type": "DATA_OUTPUT_BINDING"
+                                                        }
+                                                    ],
+                                                    "type": "LIST_CONTAINER"
+                                                },
+                                                "tooltipContent": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "bundleLink": {
+                                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                "elementType": "member",
+                                                "originalElementId": "playbook_stage_picker"
+                                            },
+                                            "definition": {
+                                                "id": "07b507b07c7b4704c834d99cf289892f",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "playbook_stage_picker",
+                                            "elementLabel": "Playbook Stage Picker",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "operation": {
+                                                    "operand": {
+                                                        "binding": {
+                                                            "address": [
+                                                                "playbook_custom_layout",
+                                                                "stagePickerVisible"
+                                                            ]
+                                                        },
+                                                        "type": "DATA_OUTPUT_BINDING"
+                                                    },
+                                                    "operator": "NOT"
+                                                },
+                                                "type": "UNARY"
+                                            },
+                                            "preset": {
+                                                "controllerElementId": "playbook_custom_layout",
+                                                "disabledEventTargetIds": [],
+                                                "id": "eee31aecb3776650ab1e380b694c7f51"
+                                            },
+                                            "propertyValues": {
+                                                "daClientActionContract": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "maxVisibleStages": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": 5
+                                                },
+                                                "orientation": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "horizontal"
+                                                },
+                                                "usingMonolith": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "bundleLink": {
+                                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                "elementType": "member",
+                                                "originalElementId": "resizable_panes"
+                                            },
+                                            "definition": {
+                                                "id": "07b0bb09419d26f0af681796bc548f19",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "resizable_panes",
+                                            "elementLabel": "Resizable panes",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "overrides": {
+                                                "composition": [
+                                                    {
+                                                        "bundleLink": {
+                                                            "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                            "elementType": "member",
+                                                            "originalElementId": "playbook_activity_picker"
+                                                        },
+                                                        "definition": {
+                                                            "id": "7e0d76c668b58227fa9a029419826203",
+                                                            "type": "MACROPONENT"
+                                                        },
+                                                        "elementId": "playbook_activity_picker",
+                                                        "elementLabel": "Playbook Activity Picker",
+                                                        "eventMappings": [],
+                                                        "isHidden": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": null
+                                                        },
+                                                        "preset": {
+                                                            "controllerElementId": "playbook_custom_layout",
+                                                            "disabledEventTargetIds": [],
+                                                            "id": "1143cf52cb075da23298da1cdc43b8d1"
+                                                        },
+                                                        "propertyValues": {
+                                                            "daClientActionContract": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "showStages": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "usingMonolith": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            }
+                                                        },
+                                                        "slot": "left",
+                                                        "styles": null
+                                                    },
+                                                    {
+                                                        "bundleLink": {
+                                                            "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                            "elementType": "member",
+                                                            "originalElementId": "playbook_activity_viewer"
+                                                        },
+                                                        "definition": {
+                                                            "id": "9962aa7c77c9e928fe1cda51fcda7f2e",
+                                                            "type": "MACROPONENT"
+                                                        },
+                                                        "elementId": "playbook_activity_viewer",
+                                                        "elementLabel": "Playbook Activity Viewer",
+                                                        "eventMappings": [],
+                                                        "isHidden": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": null
+                                                        },
+                                                        "preset": {
+                                                            "controllerElementId": "playbook_custom_layout",
+                                                            "disabledEventTargetIds": [],
+                                                            "id": "b65b39aad0ea8e534bea29391805a6cf"
+                                                        },
+                                                        "propertyValues": {
+                                                            "daClientActionContract": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "enableFullWidthCards": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": true
+                                                            },
+                                                            "showFilteredCount": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "usingMonolith": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            }
+                                                        },
+                                                        "slot": "right",
+                                                        "styles": {
+                                                            "border-color": "RGB(var(--now-color--neutral-5))",
+                                                            "border-radius": "4px",
+                                                            "border-style": "id",
+                                                            "border-width": "var(--now-static-space--xxs)",
+                                                            "height": "100vh"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "actionBar": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "actionBarConfig": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {
+                                                        "leftIcon": "record-activity-details-fill",
+                                                        "leftTooltip": "Display left pane only",
+                                                        "middleIcon": "record-activity-stream-outline",
+                                                        "middleTooltip": "Display both panes",
+                                                        "rightIcon": "record-activity-outline",
+                                                        "rightTooltip": "Display right pane only"
+                                                    }
+                                                },
+                                                "bare": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "bottomPaneAriaLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Bottom pane"
+                                                },
+                                                "bottomPaneConstraints": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+                                                },
+                                                "defaultDisplayedPane": {
+                                                    "script": {
+                                                        "apiVersion": "2.0.0",
+                                                        "controllerElementId": null,
+                                                        "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperty({api, helpers}) {\n\tif(!api.data.playbook_custom_layout.compactMode) return \"both\";\n\n  return (api.data.playbook_custom_layout.selectedItem || {}).stageContextId ? \"right\" : \"left\";\n}",
+                                                        "scriptSysId": "548541364380021000bb7ff8abb8f247",
+                                                        "target": null
+                                                    },
+                                                    "type": "CLIENT_TRANSFORM_SCRIPT"
+                                                },
+                                                "defaultDividerPosition": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": 0
+                                                },
+                                                "disabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "displayDividerButton": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "dividerAriaLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Resizable panes divider"
+                                                },
+                                                "dividerButtonConfig": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {
+                                                        "buttonProps": {
+                                                            "icon": "chevron-left-outline"
+                                                        },
+                                                        "position": "top"
+                                                    }
+                                                },
+                                                "dividerHandleTooltip": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Resizable panes divider handle"
+                                                },
+                                                "dividerStyles": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {}
+                                                },
+                                                "leftPaneAriaLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Left pane"
+                                                },
+                                                "leftPaneConstraints": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "{\"minRatio\": 30, \"minPixels\": 353}"
+                                                },
+                                                "panesPosition": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "left-right"
+                                                },
+                                                "rightPaneAriaLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Right pane"
+                                                },
+                                                "rightPaneConstraints": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "{\"minRatio\": 50, \"minPixels\": 100}"
+                                                },
+                                                "topPaneAriaLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Top pane"
+                                                },
+                                                "topPaneConstraints": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "playbook_modals",
+                                                    "styles": {}
+                                                },
+                                                {
+                                                    "element_id": "playbook_picker_label",
+                                                    "styles": {
+                                                        "flex": "0 0 auto",
+                                                        "margin": "0",
+                                                        "margin-left": "var(--now-static-space--xl)",
+                                                        "margin-top": "var(--now-static-space--lg)"
+                                                    }
+                                                },
+                                                {
+                                                    "element_id": "playbook_picker",
+                                                    "styles": {
+                                                        "flex": "0 0 auto",
+                                                        "margin": "0",
+                                                        "margin-left": "var(--now-static-space--xl)",
+                                                        "width": "fit-content"
+                                                    }
+                                                },
+                                                {
+                                                    "element_id": "playbook_stage_picker",
+                                                    "styles": {
+                                                        "flex": "0 0 auto"
+                                                    }
+                                                },
+                                                {
+                                                    "element_id": "resizable_panes",
+                                                    "styles": {
+                                                        "flex": "0 0 auto",
+                                                        "max-height": "100%",
+                                                        "width": "100%"
+                                                    }
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": null,
+                                            "styles": {
+                                                "flex-direction": "column",
+                                                "width": "100%"
+                                            },
+                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "ariaRegionHeadingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "ariaRegionName": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "ariaRole": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "hideEmptyStateUi": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "includeAriaHeading": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
+                                    },
+                                    "type": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "section"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "focused_horizontal_container"
+                                    }
+                                ],
+                                "root": null,
+                                "styles": {
+                                    "align-items": "stretch",
+                                    "box-sizing": "border-box",
+                                    "flex-direction": "column",
+                                    "height": "100%",
+                                    "justify-content": "flex-start",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "disableAutoReflow": true,
+                            "version": "3.1.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "contents"
+                        }
+                    },
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "columnNumber": 0,
+                                    "id": "default",
+                                    "styleConfig": {
+                                        "external": {},
+                                        "internal": {}
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": {
+                        "default": {
+                            "display": "contents"
+                        }
+                    }
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "isInline": null,
+                    "items": [
+                        {
+                            "element_id": "__sIteehhPeehhEQDkpfeeddLaaBeehhaaBeedlffu__column_1"
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "box-sizing": "border-box",
+                        "grid-template-columns": "100fr",
+                        "grid-template-rows": "1fr",
+                        "width": "auto"
+                    },
+                    "type": "grid"
+                },
+                "disableAutoReflow": true,
+                "queries": [
+                    {
+                        "layout": {
+                            "children": null,
+                            "isInline": null,
+                            "items": [],
+                            "root": null,
+                            "rules": null,
+                            "styles": {
+                                "grid-template-columns": "1fr",
+                                "height": "fit-content",
+                                "max-height": "max-content",
+                                "min-height": "min-content"
+                            },
+                            "type": "grid"
+                        },
+                        "query": {
+                            "max-width": 640
+                        }
+                    }
+                ],
+                "version": "3.1.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "contents"
+            }
+        },
+        "scratchPad": {
+            "uib": {
+                "layout": {
+                    "columnSection": {
+                        "breakpoints": [
+                            {
+                                "behavior": "stack",
+                                "max-width": 640,
+                                "styles": {
+                                    "grid-template-columns": "1fr",
+                                    "height": "fit-content",
+                                    "max-height": "max-content",
+                                    "min-height": "min-content"
+                                }
+                            }
+                        ],
+                        "children": [
+                            {
+                                "columnNumber": 1,
+                                "unit": "%",
+                                "width": 100
+                            }
+                        ],
+                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
+                        "styleConfig": {
+                            "external": {},
+                            "internal": {}
+                        }
+                    },
+                    "type": "columnSection"
+                },
+                "version": "1.0.0"
+            }
+        },
+        "slot": null,
+        "styles": {
+            "default": {
+                "display": "contents"
+            }
+        }
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "bundleLinks": [
+            {
+                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                "elementType": "controller",
+                "originalElementId": "record"
+            }
+        ],
+        "definition": {
+            "id": "029f04e053610110ac9bddeeff7b1294",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "record",
+        "elementLabel": "Form Controller",
+        "eventMappings": [
+            {
+                "eventMappingId": "srp_on_load_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uib_base_aw.SRP_UI_CTRL#ADD_NOTIFICATIONS",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uib_base_aw.SRP_UI_CTRL#ADD_NOTIFICATIONS",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": null
+                        },
+                        "operation": null,
+                        "targetId": "srp_on_load_notification",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_add_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#ADD_NOTIFICATION_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#ADD_NOTIFICATION_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            }
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_clear_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#REMOVE_ALL_NOTIFICATIONS_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#REMOVE_ALL_NOTIFICATIONS_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#CLEAR_NOTIFICATIONS",
+                            "payload": {}
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_remove_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#REMOVE_NOTIFICATION_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#REMOVE_NOTIFICATION_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#REMOVE_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            }
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_set_loading_state",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#FORM_LOADING_STATE_CHANGED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#FORM_LOADING_STATE_CHANGED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#SET_LOADING_STATE",
+                            "payload": {
+                                "container": {
+                                    "label": {
+                                        "binding": {
+                                            "address": [
+                                                "label"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "loading": {
+                                        "binding": {
+                                            "address": [
+                                                "loading"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "0404f68486f1baab1dc7ef2a27a3de50"
+                        },
+                        "operation": null,
+                        "targetId": "formSetLoadingState",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "actionConfigId": {
+                "binding": {
+                    "address": [
+                        "actionConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "activityLogs": {
+                "binding": {
+                    "address": [
+                        "activityLogs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "delayRecommendationFetching": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "detailsContext": {
+                "binding": {
+                    "address": [
+                        "activityLogs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "fields": {
+                "binding": {
+                    "address": [
+                        "fields"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "forcedViewName": {
+                "binding": {
+                    "address": [
+                        "views"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "headerConfigId": {
+                "binding": {
+                    "address": [
+                        "headerConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "highlightedValueConfigId": {
+                "binding": {
+                    "address": [
+                        "highlightedValueConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputExtraParams": {
+                "binding": {
+                    "address": [
+                        "extraParams"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputQuery": {
+                "binding": {
+                    "address": [
+                        "query"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputSysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputTable": {
+                "binding": {
+                    "address": [
+                        "table"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "isMappedToAppShell": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "overrideAppContextConfigIds": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "ribbonConfigId": {
+                "binding": {
+                    "address": [
+                        "ribbonConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "screen": {
+                "binding": {
+                    "address": [
+                        "screen"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "selectedTabIndex": {
+                "binding": {
+                    "address": [
+                        "selectedTabIndex"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "sysparmView": {
+                "binding": {
+                    "address": [
+                        "sysparmView"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "userPrefs": {
+                "binding": {
+                    "address": [
+                        "userPrefs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "viewRuleConfigId": {
+                "binding": {
+                    "address": [
+                        "viewRuleConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        }
+    },
+    {
+        "bundleLinks": [
+            {
+                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                "elementType": "controller",
+                "originalElementId": "playbook_custom_layout"
+            }
+        ],
+        "definition": {
+            "id": "b47c9480075111106670d9630ad300fe",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {
+            "record": "form"
+        },
+        "elementId": "playbook_custom_layout",
+        "elementLabel": "Playbook Custom Layout",
+        "eventMappings": [],
+        "inputValues": {
+            "inputParentSysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputParentTable": {
+                "binding": {
+                    "address": [
+                        "table"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{
+    "custom_ff_1": {
+        "max-width": 640,
+        "reference": "macroponent"
+    }
+}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "column_layout_1"
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "queries": [
+        {
+            "layout": {
+                "items": [],
+                "styles": {
+                    "flex-direction": "column",
+                    "height": "auto",
+                    "min-width": null
+                },
+                "type": "flex"
+            },
+            "queryId": "custom_ff_1"
+        }
+    ],
+    "version": "3.1.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>TourokuHenkou</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "HQieeddVfcddBaaddBjjkUJjjIsGRiimX",
+        "inherited": false,
+        "label": "Table",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "ItUaaeeehhddbbCEKeehheeddLIKJMRjkGWV",
+        "inherited": false,
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "meehhKBAPaWAUHiijjddINmxcchhBWhho",
+        "inherited": false,
+        "label": "Query",
+        "mandatory": false,
+        "name": "query",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "QggWbbWeehhiihAkbKeeddKIDSruiipvy",
+        "inherited": false,
+        "label": "views",
+        "mandatory": false,
+        "name": "views",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "EbXoceehhiiBCUeeddkjjggoJZJbGqlffH",
+        "inherited": false,
+        "label": "activityLogs",
+        "mandatory": false,
+        "name": "activityLogs",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "WaEMJPJgDkJDjjREByffgXnddeehhbb",
+        "inherited": false,
+        "label": "extraParams",
+        "mandatory": false,
+        "name": "extraParams",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "eeddtgiiSeehhLccCUabbjjpUKFkaeeeehhoia",
+        "inherited": false,
+        "label": "fields",
+        "mandatory": false,
+        "name": "fields",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "wzpKSvgzAEccqjjngBTgjjhntcf",
+        "inherited": false,
+        "label": "screen",
+        "mandatory": false,
+        "name": "screen",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "jjtbbaawPRICUstjjmYKbbepCJlwE",
+        "inherited": false,
+        "label": "selectedTabIndex",
+        "mandatory": false,
+        "name": "selectedTabIndex",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "DfqHdPffbBaaLcjjUiiIKFBvggrEy",
+        "inherited": false,
+        "label": "userPrefs",
+        "mandatory": false,
+        "name": "userPrefs",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "ymxwbfaavAENhhjjrcOtBURNQli",
+        "inherited": false,
+        "label": "sysparmView",
+        "mandatory": false,
+        "name": "sysparmView",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Playbook",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties>[]</state_properties>
+        <style_config>{}</style_config>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-19 06:12:21</sys_created_on>
+        <sys_id>d397b761c31d7e102a9b1e0ed40131c5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>TourokuHenkou</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_d397b761c31d7e102a9b1e0ed40131c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-19 07:03:37</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=d397b761c31d7e102a9b1e0ed40131c5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b5b286dcdb9279184162684e139619dd</instance_id>
+        <instance_name>dev199001</instance_name>
+        <name>sys_ux_macroponent_d397b761c31d7e102a9b1e0ed40131c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><bundles>[
+    {
+        "definitionId": "a985303e4300021000bb7ff8abb8f2ba",
+        "instanceId": "playbookfocusedhorizontal_1",
+        "name": "Playbook Focused Horizontal 1",
+        "useByReference": false
+    }
+]</bundles><category>page</category><component_dependencies/><composition>[
+    {
+        "bundleLink": {
+            "bundleInstanceId": "playbookfocusedhorizontal_1",
+            "elementType": "member",
+            "originalElementId": "modalContainerViewport_record"
+        },
+        "definition": {
+            "id": "61c315e9ccb8970546c30f3e2da41a32",
+            "type": "MACROPONENT_VIEWPORT"
+        },
+        "elementId": "modalcontainerviewport_record",
+        "elementLabel": "Modal Container (Viewport) - Record",
+        "eventMappings": [],
+        "extensionPoints": [
+            {
+                "controllerDependencyMap": null,
+                "controllerElementId": "record",
+                "name": "Record page modals",
+                "sysId": "e38960c1c30301103581a5a1d840dd45"
+            }
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [],
+        "overrides": null,
+        "preset": {
+            "controllerElementId": "record",
+            "disabledEventTargetIds": [],
+            "id": "b76d5b8043432110379ea5dccbb8f297"
+        },
+        "propertyValues": {},
+        "slot": null,
+        "styles": {
+            "width": "100%"
+        }
+    },
+    {
+        "bundleLink": {
+            "bundleInstanceId": "playbookfocusedhorizontal_1",
+            "elementType": "member",
+            "originalElementId": "reference_info_popover_record"
+        },
+        "definition": {
+            "id": "de328a48e97cdcc50a5043e029bf0a66",
+            "type": "MACROPONENT"
+        },
+        "elementId": "reference_info_popover_record",
+        "elementLabel": "Reference Info Popover - Record",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "bundleLink": {
+                        "bundleInstanceId": "playbookfocusedhorizontal_1",
+                        "elementType": "member",
+                        "originalElementId": "reference_info_content_record"
+                    },
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "reference_info_content_record",
+                    "elementLabel": "Reference Info Content - Record",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "bundleLink": {
+                                    "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                    "elementType": "member",
+                                    "originalElementId": "open_record_button_record"
+                                },
+                                "definition": {
+                                    "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "open_record_button_record",
+                                "elementLabel": "Open Record Button - Record",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": {
+                                    "controllerElementId": "record",
+                                    "id": "2c9b775ba59d59482acacfd67c793517"
+                                },
+                                "propertyValues": {
+                                    "configAria": {}
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "bundleLink": {
+                                    "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                    "elementType": "member",
+                                    "originalElementId": "display_only_record_form_record"
+                                },
+                                "definition": {
+                                    "id": "f4d3254a798ef092d9023d408f257789",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "display_only_record_form_record",
+                                "elementLabel": "Display Only Form - Record",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": {
+                                    "controllerElementId": "record",
+                                    "id": "d47e3591999fa213338037c11623e30f"
+                                },
+                                "propertyValues": {},
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "open_record_button",
+                                        "styles": {
+                                            "align-self": "flex-end",
+                                            "position": "absolute",
+                                            "z-index": "99"
+                                        }
+                                    },
+                                    {
+                                        "element_id": "display_only_record_form",
+                                        "styles": {
+                                            "min-height": "80px",
+                                            "min-width": "504px"
+                                        }
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "align-items": "stretch",
+                                    "display": "flex",
+                                    "flex-direction": "column",
+                                    "margin": "var(--now-scalable-space--md)",
+                                    "padding-inline-end": "calc(var(--now-scale-space--sm, 1)*0.5rem)",
+                                    "padding-top": "calc(var(--now-scale-space--sm, 1)*0.5rem)"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "hideEmptyStateUi": true,
+                        "includeAriaHeading": false,
+                        "slotWrapperBehavior": "fullheight",
+                        "type": "section"
+                    },
+                    "slot": "content",
+                    "styles": {
+                        "width": "250px"
+                    }
+                }
+            ]
+        },
+        "preset": {
+            "controllerElementId": "record",
+            "id": "79ebea45f4861cca5a2606fb0217d3a6"
+        },
+        "propertyValues": {
+            "configAria": {},
+            "positions": {
+                "type": "JSON_LITERAL"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "column_layout_1",
+        "elementLabel": "Column layout 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "__sIteehhPeehhEQDkpfeeddLaaBeehhaaBeedlffu__column_1",
+                    "elementLabel": "Column 1",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "bundleLink": {
+                                    "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                    "elementType": "root",
+                                    "originalElementId": "focused_horizontal_container"
+                                },
+                                "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "focused_horizontal_container",
+                                "elementLabel": "Focused Horizontal Container",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "bundleLink": {
+                                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                "elementType": "member",
+                                                "originalElementId": "playbook_modals"
+                                            },
+                                            "definition": {
+                                                "id": "9e9a9999bc08c532cf101d791dc31667",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "playbook_modals",
+                                            "elementLabel": "Playbook Modals",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": {
+                                                "controllerElementId": "playbook_custom_layout",
+                                                "disabledEventTargetIds": [],
+                                                "id": "32d3bef1efa111dd6a91ed7edae7f04d"
+                                            },
+                                            "propertyValues": {},
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "bundleLink": {
+                                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                "elementType": "member",
+                                                "originalElementId": "playbook_picker_label"
+                                            },
+                                            "definition": {
+                                                "id": "bb63b710d208796b7ceaab7812bddef1",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "playbook_picker_label",
+                                            "elementLabel": "Playbook Picker Label",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "binding": {
+                                                    "address": [
+                                                        "playbook_custom_layout",
+                                                        "compactMode"
+                                                    ]
+                                                },
+                                                "type": "DATA_OUTPUT_BINDING"
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "label": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "Playbook"
+                                                    }
+                                                },
+                                                "reversed": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "truncated": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "value": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": ""
+                                                    }
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "bundleLink": {
+                                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                "elementType": "member",
+                                                "originalElementId": "playbook_picker"
+                                            },
+                                            "definition": {
+                                                "id": "22c67d9a1e515fef66442e1469bed3a2",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "playbook_picker",
+                                            "elementLabel": "Playbook Picker",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "binding": {
+                                                    "address": [
+                                                        "playbook_custom_layout",
+                                                        "compactMode"
+                                                    ]
+                                                },
+                                                "type": "DATA_OUTPUT_BINDING"
+                                            },
+                                            "preset": {
+                                                "controllerElementId": "playbook_custom_layout",
+                                                "disabledEventTargetIds": [],
+                                                "id": "a41afa67e42b9d30cff2bc8170b6eb5c"
+                                            },
+                                            "propertyValues": {
+                                                "configAria": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "disabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "icon": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "items": {
+                                                    "script": {
+                                                        "apiVersion": "2.0.0",
+                                                        "controllerElementId": null,
+                                                        "inlineScript": "/**\n * @param {params} params\n * @param {api} params.api\n * @param {TransformApiHelpers} params.helpers\n */\nfunction evaluateProperty({ api }) {\n\tconst playbooksByContextId = api.data.playbook_custom_layout.playbooksByContextId;\n\n\tif (!playbooksByContextId || !Object.keys(playbooksByContextId).length)\n\t\treturn;\n\n\tconst playbookItems = Object.values(playbooksByContextId).map(\n\t\t({ sysId, title }) =&gt; {\n\t\t\tif (!sysId || !title) return;\n\n\t\t\treturn {\n\t\t\t\tid: sysId,\n\t\t\t\tlabel: title\n\t\t\t};\n\t\t}\n\t);\n\n\treturn playbookItems;\n}\n",
+                                                        "scriptSysId": "4e95b07e4300021000bb7ff8abb8f21e",
+                                                        "target": null
+                                                    },
+                                                    "type": "CLIENT_TRANSFORM_SCRIPT"
+                                                },
+                                                "label": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "labelPosition": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "top"
+                                                },
+                                                "labelSize": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "opened": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "panelFitProps": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {}
+                                                },
+                                                "search": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "none"
+                                                },
+                                                "selectedItems": {
+                                                    "container": [
+                                                        {
+                                                            "binding": {
+                                                                "address": [
+                                                                    "playbook_custom_layout",
+                                                                    "selectedItem",
+                                                                    "playbookContextId"
+                                                                ]
+                                                            },
+                                                            "type": "DATA_OUTPUT_BINDING"
+                                                        }
+                                                    ],
+                                                    "type": "LIST_CONTAINER"
+                                                },
+                                                "tooltipContent": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "bundleLink": {
+                                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                "elementType": "member",
+                                                "originalElementId": "playbook_stage_picker"
+                                            },
+                                            "definition": {
+                                                "id": "07b507b07c7b4704c834d99cf289892f",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "playbook_stage_picker",
+                                            "elementLabel": "Playbook Stage Picker",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "operation": {
+                                                    "operand": {
+                                                        "binding": {
+                                                            "address": [
+                                                                "playbook_custom_layout",
+                                                                "stagePickerVisible"
+                                                            ]
+                                                        },
+                                                        "type": "DATA_OUTPUT_BINDING"
+                                                    },
+                                                    "operator": "NOT"
+                                                },
+                                                "type": "UNARY"
+                                            },
+                                            "preset": {
+                                                "controllerElementId": "playbook_custom_layout",
+                                                "disabledEventTargetIds": [],
+                                                "id": "eee31aecb3776650ab1e380b694c7f51"
+                                            },
+                                            "propertyValues": {
+                                                "daClientActionContract": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "maxVisibleStages": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": 5
+                                                },
+                                                "orientation": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "horizontal"
+                                                },
+                                                "usingMonolith": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "bundleLink": {
+                                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                "elementType": "member",
+                                                "originalElementId": "resizable_panes"
+                                            },
+                                            "definition": {
+                                                "id": "07b0bb09419d26f0af681796bc548f19",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "resizable_panes",
+                                            "elementLabel": "Resizable panes",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "overrides": {
+                                                "composition": [
+                                                    {
+                                                        "bundleLink": {
+                                                            "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                            "elementType": "member",
+                                                            "originalElementId": "playbook_activity_picker"
+                                                        },
+                                                        "definition": {
+                                                            "id": "7e0d76c668b58227fa9a029419826203",
+                                                            "type": "MACROPONENT"
+                                                        },
+                                                        "elementId": "playbook_activity_picker",
+                                                        "elementLabel": "Playbook Activity Picker",
+                                                        "eventMappings": [],
+                                                        "isHidden": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": null
+                                                        },
+                                                        "preset": {
+                                                            "controllerElementId": "playbook_custom_layout",
+                                                            "disabledEventTargetIds": [],
+                                                            "id": "1143cf52cb075da23298da1cdc43b8d1"
+                                                        },
+                                                        "propertyValues": {
+                                                            "daClientActionContract": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "showStages": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "usingMonolith": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            }
+                                                        },
+                                                        "slot": "left",
+                                                        "styles": null
+                                                    },
+                                                    {
+                                                        "bundleLink": {
+                                                            "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                                            "elementType": "member",
+                                                            "originalElementId": "playbook_activity_viewer"
+                                                        },
+                                                        "definition": {
+                                                            "id": "9962aa7c77c9e928fe1cda51fcda7f2e",
+                                                            "type": "MACROPONENT"
+                                                        },
+                                                        "elementId": "playbook_activity_viewer",
+                                                        "elementLabel": "Playbook Activity Viewer",
+                                                        "eventMappings": [],
+                                                        "isHidden": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": null
+                                                        },
+                                                        "preset": {
+                                                            "controllerElementId": "playbook_custom_layout",
+                                                            "disabledEventTargetIds": [],
+                                                            "id": "b65b39aad0ea8e534bea29391805a6cf"
+                                                        },
+                                                        "propertyValues": {
+                                                            "daClientActionContract": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "enableFullWidthCards": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": true
+                                                            },
+                                                            "showFilteredCount": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "usingMonolith": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            }
+                                                        },
+                                                        "slot": "right",
+                                                        "styles": {
+                                                            "border-color": "RGB(var(--now-color--neutral-5))",
+                                                            "border-radius": "4px",
+                                                            "border-style": "id",
+                                                            "border-width": "var(--now-static-space--xxs)",
+                                                            "height": "100vh"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "actionBar": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "actionBarConfig": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {
+                                                        "leftIcon": "record-activity-details-fill",
+                                                        "leftTooltip": "Display left pane only",
+                                                        "middleIcon": "record-activity-stream-outline",
+                                                        "middleTooltip": "Display both panes",
+                                                        "rightIcon": "record-activity-outline",
+                                                        "rightTooltip": "Display right pane only"
+                                                    }
+                                                },
+                                                "bare": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "bottomPaneAriaLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Bottom pane"
+                                                },
+                                                "bottomPaneConstraints": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+                                                },
+                                                "defaultDisplayedPane": {
+                                                    "script": {
+                                                        "apiVersion": "2.0.0",
+                                                        "controllerElementId": null,
+                                                        "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperty({api, helpers}) {\n\tif(!api.data.playbook_custom_layout.compactMode) return \"both\";\n\n  return (api.data.playbook_custom_layout.selectedItem || {}).stageContextId ? \"right\" : \"left\";\n}",
+                                                        "scriptSysId": "548541364380021000bb7ff8abb8f247",
+                                                        "target": null
+                                                    },
+                                                    "type": "CLIENT_TRANSFORM_SCRIPT"
+                                                },
+                                                "defaultDividerPosition": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": 0
+                                                },
+                                                "disabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "displayDividerButton": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "dividerAriaLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Resizable panes divider"
+                                                },
+                                                "dividerButtonConfig": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {
+                                                        "buttonProps": {
+                                                            "icon": "chevron-left-outline"
+                                                        },
+                                                        "position": "top"
+                                                    }
+                                                },
+                                                "dividerHandleTooltip": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Resizable panes divider handle"
+                                                },
+                                                "dividerStyles": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {}
+                                                },
+                                                "leftPaneAriaLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Left pane"
+                                                },
+                                                "leftPaneConstraints": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "{\"minRatio\": 30, \"minPixels\": 353}"
+                                                },
+                                                "panesPosition": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "left-right"
+                                                },
+                                                "rightPaneAriaLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Right pane"
+                                                },
+                                                "rightPaneConstraints": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "{\"minRatio\": 50, \"minPixels\": 100}"
+                                                },
+                                                "topPaneAriaLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Top pane"
+                                                },
+                                                "topPaneConstraints": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "playbook_modals",
+                                                    "styles": {}
+                                                },
+                                                {
+                                                    "element_id": "playbook_picker_label",
+                                                    "styles": {
+                                                        "flex": "0 0 auto",
+                                                        "margin": "0",
+                                                        "margin-left": "var(--now-static-space--xl)",
+                                                        "margin-top": "var(--now-static-space--lg)"
+                                                    }
+                                                },
+                                                {
+                                                    "element_id": "playbook_picker",
+                                                    "styles": {
+                                                        "flex": "0 0 auto",
+                                                        "margin": "0",
+                                                        "margin-left": "var(--now-static-space--xl)",
+                                                        "width": "fit-content"
+                                                    }
+                                                },
+                                                {
+                                                    "element_id": "playbook_stage_picker",
+                                                    "styles": {
+                                                        "flex": "0 0 auto"
+                                                    }
+                                                },
+                                                {
+                                                    "element_id": "resizable_panes",
+                                                    "styles": {
+                                                        "flex": "0 0 auto",
+                                                        "max-height": "100%",
+                                                        "width": "100%"
+                                                    }
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": null,
+                                            "styles": {
+                                                "flex-direction": "column",
+                                                "width": "100%"
+                                            },
+                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "ariaRegionHeadingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "ariaRegionName": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "ariaRole": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "hideEmptyStateUi": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "includeAriaHeading": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
+                                    },
+                                    "type": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "section"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "focused_horizontal_container"
+                                    }
+                                ],
+                                "root": null,
+                                "styles": {
+                                    "align-items": "stretch",
+                                    "box-sizing": "border-box",
+                                    "flex-direction": "column",
+                                    "height": "100%",
+                                    "justify-content": "flex-start",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "disableAutoReflow": true,
+                            "version": "3.1.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "contents"
+                        }
+                    },
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "columnNumber": 0,
+                                    "id": "default",
+                                    "styleConfig": {
+                                        "external": {},
+                                        "internal": {}
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": {
+                        "default": {
+                            "display": "contents"
+                        }
+                    }
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "isInline": null,
+                    "items": [
+                        {
+                            "element_id": "__sIteehhPeehhEQDkpfeeddLaaBeehhaaBeedlffu__column_1"
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "box-sizing": "border-box",
+                        "grid-template-columns": "100fr",
+                        "grid-template-rows": "1fr",
+                        "width": "auto"
+                    },
+                    "type": "grid"
+                },
+                "disableAutoReflow": true,
+                "queries": [
+                    {
+                        "layout": {
+                            "children": null,
+                            "isInline": null,
+                            "items": [],
+                            "root": null,
+                            "rules": null,
+                            "styles": {
+                                "grid-template-columns": "1fr",
+                                "height": "fit-content",
+                                "max-height": "max-content",
+                                "min-height": "min-content"
+                            },
+                            "type": "grid"
+                        },
+                        "query": {
+                            "max-width": 640
+                        }
+                    }
+                ],
+                "version": "3.1.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "contents"
+            }
+        },
+        "scratchPad": {
+            "uib": {
+                "layout": {
+                    "columnSection": {
+                        "breakpoints": [
+                            {
+                                "behavior": "stack",
+                                "max-width": 640,
+                                "styles": {
+                                    "grid-template-columns": "1fr",
+                                    "height": "fit-content",
+                                    "max-height": "max-content",
+                                    "min-height": "min-content"
+                                }
+                            }
+                        ],
+                        "children": [
+                            {
+                                "columnNumber": 1,
+                                "unit": "%",
+                                "width": 100
+                            }
+                        ],
+                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
+                        "styleConfig": {
+                            "external": {},
+                            "internal": {}
+                        }
+                    },
+                    "type": "columnSection"
+                },
+                "version": "1.0.0"
+            }
+        },
+        "slot": null,
+        "styles": {
+            "default": {
+                "display": "contents"
+            }
+        }
+    }
+]</composition><da_relay_models/><data>[
+    {
+        "bundleLinks": [
+            {
+                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                "elementType": "controller",
+                "originalElementId": "record"
+            }
+        ],
+        "definition": {
+            "id": "029f04e053610110ac9bddeeff7b1294",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "record",
+        "elementLabel": "Form Controller",
+        "eventMappings": [
+            {
+                "eventMappingId": "srp_on_load_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uib_base_aw.SRP_UI_CTRL#ADD_NOTIFICATIONS",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uib_base_aw.SRP_UI_CTRL#ADD_NOTIFICATIONS",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": null
+                        },
+                        "operation": null,
+                        "targetId": "srp_on_load_notification",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_add_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#ADD_NOTIFICATION_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#ADD_NOTIFICATION_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            }
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_clear_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#REMOVE_ALL_NOTIFICATIONS_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#REMOVE_ALL_NOTIFICATIONS_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#CLEAR_NOTIFICATIONS",
+                            "payload": {}
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_remove_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#REMOVE_NOTIFICATION_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#REMOVE_NOTIFICATION_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#REMOVE_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            }
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_set_loading_state",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#FORM_LOADING_STATE_CHANGED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#FORM_LOADING_STATE_CHANGED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#SET_LOADING_STATE",
+                            "payload": {
+                                "container": {
+                                    "label": {
+                                        "binding": {
+                                            "address": [
+                                                "label"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "loading": {
+                                        "binding": {
+                                            "address": [
+                                                "loading"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "0404f68486f1baab1dc7ef2a27a3de50"
+                        },
+                        "operation": null,
+                        "targetId": "formSetLoadingState",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "actionConfigId": {
+                "binding": {
+                    "address": [
+                        "actionConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "activityLogs": {
+                "binding": {
+                    "address": [
+                        "activityLogs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "delayRecommendationFetching": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "detailsContext": {
+                "binding": {
+                    "address": [
+                        "activityLogs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "fields": {
+                "binding": {
+                    "address": [
+                        "fields"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "forcedViewName": {
+                "binding": {
+                    "address": [
+                        "views"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "headerConfigId": {
+                "binding": {
+                    "address": [
+                        "headerConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "highlightedValueConfigId": {
+                "binding": {
+                    "address": [
+                        "highlightedValueConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputExtraParams": {
+                "binding": {
+                    "address": [
+                        "extraParams"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputQuery": {
+                "binding": {
+                    "address": [
+                        "query"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputSysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputTable": {
+                "binding": {
+                    "address": [
+                        "table"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "isMappedToAppShell": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "overrideAppContextConfigIds": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "ribbonConfigId": {
+                "binding": {
+                    "address": [
+                        "ribbonConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "screen": {
+                "binding": {
+                    "address": [
+                        "screen"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "selectedTabIndex": {
+                "binding": {
+                    "address": [
+                        "selectedTabIndex"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "sysparmView": {
+                "binding": {
+                    "address": [
+                        "sysparmView"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "userPrefs": {
+                "binding": {
+                    "address": [
+                        "userPrefs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "viewRuleConfigId": {
+                "binding": {
+                    "address": [
+                        "viewRuleConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        }
+    },
+    {
+        "bundleLinks": [
+            {
+                "bundleInstanceId": "playbookfocusedhorizontal_1",
+                "elementType": "controller",
+                "originalElementId": "playbook_custom_layout"
+            }
+        ],
+        "definition": {
+            "id": "b47c9480075111106670d9630ad300fe",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {
+            "record": "form"
+        },
+        "elementId": "playbook_custom_layout",
+        "elementLabel": "Playbook Custom Layout",
+        "eventMappings": [],
+        "inputValues": {
+            "inputParentSysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputParentTable": {
+                "binding": {
+                    "address": [
+                        "table"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data><description/><disable_auto_reflow>false</disable_auto_reflow><dispatched_events/><ext_controller_dep/><extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends><extension_point/><form_factors>{
+    "custom_ff_1": {
+        "max-width": 640,
+        "reference": "macroponent"
+    }
+}</form_factors><handled_events/><interactions/><interfaces/><internal_event_mappings>{}</internal_event_mappings><layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "column_layout_1"
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "queries": [
+        {
+            "layout": {
+                "items": [],
+                "styles": {
+                    "flex-direction": "column",
+                    "height": "auto",
+                    "min-width": null
+                },
+                "type": "flex"
+            },
+            "queryId": "custom_ff_1"
+        }
+    ],
+    "version": "3.1.0"
+}</layout><macroponent_dependencies/><name>TourokuHenkou</name><output_prop_mapping/><props>[
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "HQieeddVfcddBaaddBjjkUJjjIsGRiimX",
+        "inherited": false,
+        "label": "Table",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "ItUaaeeehhddbbCEKeehheeddLIKJMRjkGWV",
+        "inherited": false,
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "meehhKBAPaWAUHiijjddINmxcchhBWhho",
+        "inherited": false,
+        "label": "Query",
+        "mandatory": false,
+        "name": "query",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "QggWbbWeehhiihAkbKeeddKIDSruiipvy",
+        "inherited": false,
+        "label": "views",
+        "mandatory": false,
+        "name": "views",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "EbXoceehhiiBCUeeddkjjggoJZJbGqlffH",
+        "inherited": false,
+        "label": "activityLogs",
+        "mandatory": false,
+        "name": "activityLogs",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "WaEMJPJgDkJDjjREByffgXnddeehhbb",
+        "inherited": false,
+        "label": "extraParams",
+        "mandatory": false,
+        "name": "extraParams",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "eeddtgiiSeehhLccCUabbjjpUKFkaeeeehhoia",
+        "inherited": false,
+        "label": "fields",
+        "mandatory": false,
+        "name": "fields",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "wzpKSvgzAEccqjjngBTgjjhntcf",
+        "inherited": false,
+        "label": "screen",
+        "mandatory": false,
+        "name": "screen",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "jjtbbaawPRICUstjjmYKbbepCJlwE",
+        "inherited": false,
+        "label": "selectedTabIndex",
+        "mandatory": false,
+        "name": "selectedTabIndex",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "DfqHdPffbBaaLcjjUiiIKFBvggrEy",
+        "inherited": false,
+        "label": "userPrefs",
+        "mandatory": false,
+        "name": "userPrefs",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "ymxwbfaavAENhhjjrcOtBURNQli",
+        "inherited": false,
+        "label": "sysparmView",
+        "mandatory": false,
+        "name": "sysparmView",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props><required_translations>[ {
+  "message" : "Playbook",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations><root_component/><root_component_config/><root_component_definition/><schema_version>1.0.0</schema_version><state_persistence_config/><state_properties>[]</state_properties><style_config>{}</style_config><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-19 06:12:21</sys_created_on><sys_id>d397b761c31d7e102a9b1e0ed40131c5</sys_id><sys_mod_count>6</sys_mod_count><sys_name>TourokuHenkou</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_macroponent_d397b761c31d7e102a9b1e0ed40131c5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-19 07:03:37</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=d397b761c31d7e102a9b1e0ed40131c5"/></record_update>]]></payload>
+        <payload_hash>-610457388</payload_hash>
+        <record_name>TourokuHenkou</record_name>
+        <reverted_from/>
+        <source>04f9645bc3b472102a9b1e0ed40131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-19 07:03:37</sys_created_on>
+        <sys_id>12530c31c39d7e102a9b1e0ed40131d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a9aed0a4a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-19 07:03:37</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>5e530c31649d7e10815bfe905cd63bd3</update_guid>
+        <update_guid_history>5e530c31649d7e10815bfe905cd63bd3:-610457388,f2320c7d785d7e10c05d6de9fbb8471c:-327884219,0a6e7b252f5d7e10bea3584ed1dc4d03:-1110595803,0fab73adcf1d7e10424badba9610caa0:617717935,82a97b29411d7e10d699b9c1028055b8:222825820,5529fba58f1d7e10c7d99ee705415a64:-955214978,9f97b761781d7e10f394fe3b2caa7cc9:-1148796638</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 00:38:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>d35d651babc04219ad9a1946b2125331</sys_id>
+        <sys_metadata>d397b761c31d7e102a9b1e0ed40131c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TourokuHenkou</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_d397b761c31d7e102a9b1e0ed40131c5</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_d397b761c31d7e102a9b1e0ed40131c5">12530c31c39d7e102a9b1e0ed40131d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 00:38:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

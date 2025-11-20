@@ -309,7 +309,42 @@
                                 },
                                 "elementId": "____1",
                                 "elementLabel": "ボタン 1",
-                                "eventMappings": [],
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "ZjhffDeehhviiDUiiFjjdQPaWmjjVvyP",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "clientTransformScript": "",
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": null,
+                                                "operation": {
+                                                    "dataBrokerId": "029f04e053610110ac9bddeeff7b1294",
+                                                    "operationName": "CTRL_RECORD#VALIDATE",
+                                                    "parentResourceId": "record",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {}
+                                                    }
+                                                },
+                                                "targetId": "TggwfpPLKCEPKjjmIMwWtJzosG",
+                                                "type": "DATABROKER_OP"
+                                            }
+                                        ]
+                                    }
+                                ],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -1455,6 +1490,32 @@
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "ddYggHseehhLffAaatXeeddBIMkcAggdWLr",
+        "inherited": false,
+        "label": "readonly",
+        "mandatory": false,
+        "name": "readonly",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "xOsaDeehhcffDaaIwjjddUBggtrDFUTK",
+        "inherited": false,
+        "label": "henkou",
+        "mandatory": false,
+        "name": "henkou",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
     }
 ]</props>
         <required_translations>[ {
@@ -1490,14 +1551,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-11-18 08:26:40</sys_created_on>
         <sys_id>41cc8b55c355fa102a9b1e0ed40131e6</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>User</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_41cc8b55c355fa102a9b1e0ed40131e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-18 08:42:44</sys_updated_on>
+        <sys_updated_on>2025-11-20 06:30:13</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=41cc8b55c355fa102a9b1e0ed40131e6"/>
     <sys_translated_text action="INSERT_OR_UPDATE">
