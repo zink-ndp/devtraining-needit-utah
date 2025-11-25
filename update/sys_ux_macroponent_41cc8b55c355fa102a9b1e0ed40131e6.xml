@@ -368,12 +368,42 @@
                                         "value": null
                                     },
                                     "label": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "登録"
-                                        }
+                                        "transform": {
+                                            "operands": {
+                                                "container": [
+                                                    {
+                                                        "operation": {
+                                                            "left": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "henkou"
+                                                                    ],
+                                                                    "category": "props"
+                                                                },
+                                                                "type": "CONTEXT_BINDING"
+                                                            },
+                                                            "operator": "EQUAL",
+                                                            "right": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "1"
+                                                            }
+                                                        },
+                                                        "type": "BINARY"
+                                                    },
+                                                    {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": "変更"
+                                                    },
+                                                    {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": "登録"
+                                                    }
+                                                ],
+                                                "type": "LIST_CONTAINER"
+                                            },
+                                            "operator": "IF"
+                                        },
+                                        "type": "CLIENT_TRANSFORM"
                                     },
                                     "landmark": {
                                         "type": "JSON_LITERAL",
@@ -1192,10 +1222,11 @@
             "inputSysId": {
                 "binding": {
                     "address": [
-                        "isCreating"
-                    ]
+                        "sysId"
+                    ],
+                    "category": "props"
                 },
-                "type": "STATE_BINDING"
+                "type": "CONTEXT_BINDING"
             },
             "inputTable": {
                 "binding": {
@@ -1264,8 +1295,42 @@
                 "type": "CONTEXT_BINDING"
             },
             "view": {
-                "type": "JSON_LITERAL",
-                "value": "touroku"
+                "transform": {
+                    "operands": {
+                        "container": [
+                            {
+                                "operation": {
+                                    "left": {
+                                        "binding": {
+                                            "address": [
+                                                "henkou"
+                                            ],
+                                            "category": "props"
+                                        },
+                                        "type": "CONTEXT_BINDING"
+                                    },
+                                    "operator": "EQUAL",
+                                    "right": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    }
+                                },
+                                "type": "BINARY"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "henkou"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "touroku"
+                            }
+                        ],
+                        "type": "LIST_CONTAINER"
+                    },
+                    "operator": "IF"
+                },
+                "type": "CLIENT_TRANSFORM"
             },
             "viewRuleConfigId": {
                 "binding": {
@@ -1522,10 +1587,6 @@
   "message" : "Enter a label",
   "code" : "",
   "comment" : ""
-}, {
-  "message" : "登録",
-  "code" : "",
-  "comment" : ""
 } ]</required_translations>
         <root_component/>
         <root_component_config/>
@@ -1551,14 +1612,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-11-18 08:26:40</sys_created_on>
         <sys_id>41cc8b55c355fa102a9b1e0ed40131e6</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>User</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_41cc8b55c355fa102a9b1e0ed40131e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-20 06:30:13</sys_updated_on>
+        <sys_updated_on>2025-11-21 04:07:57</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=41cc8b55c355fa102a9b1e0ed40131e6"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

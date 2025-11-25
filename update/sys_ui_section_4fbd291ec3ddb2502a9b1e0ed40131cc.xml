@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="ユーザー情報" section_id="4fbd291ec3ddb2502a9b1e0ed40131cc" sys_domain="global" table="sys_user" version="3" view="henkou">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 04:06:33</sys_created_on>
+            <sys_id>8c0ee15ec3ddb2502a9b1e0ed401315c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー情報" display_value="ユーザー情報" name="sys_user" sys_domain="global" view="862f8902c39932502a9b1e0ed4013150">4fbd291ec3ddb2502a9b1e0ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 04:06:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mobile_phone</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 04:06:33</sys_created_on>
+            <sys_id>c00ee15ec3ddb2502a9b1e0ed401316a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー情報" display_value="ユーザー情報" name="sys_user" sys_domain="global" view="862f8902c39932502a9b1e0ed4013150">4fbd291ec3ddb2502a9b1e0ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 04:06:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 04:06:33</sys_created_on>
+            <sys_id>400ee15ec3ddb2502a9b1e0ed401316b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー情報" display_value="ユーザー情報" name="sys_user" sys_domain="global" view="862f8902c39932502a9b1e0ed4013150">4fbd291ec3ddb2502a9b1e0ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 04:06:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 04:06:33</sys_created_on>
+            <sys_id>cc0ee15ec3ddb2502a9b1e0ed401316b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー情報" display_value="ユーザー情報" name="sys_user" sys_domain="global" view="862f8902c39932502a9b1e0ed4013150">4fbd291ec3ddb2502a9b1e0ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 04:06:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 04:06:33</sys_created_on>
+            <sys_id>4c0ee15ec3ddb2502a9b1e0ed401316c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー情報" display_value="ユーザー情報" name="sys_user" sys_domain="global" view="862f8902c39932502a9b1e0ed4013150">4fbd291ec3ddb2502a9b1e0ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 04:06:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 04:06:33</sys_created_on>
+            <sys_id>c80ee15ec3ddb2502a9b1e0ed401316d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー情報" display_value="ユーザー情報" name="sys_user" sys_domain="global" view="862f8902c39932502a9b1e0ed4013150">4fbd291ec3ddb2502a9b1e0ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 04:06:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 04:06:33</sys_created_on>
+            <sys_id>480ee15ec3ddb2502a9b1e0ed401316e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー情報" display_value="ユーザー情報" name="sys_user" sys_domain="global" view="862f8902c39932502a9b1e0ed4013150">4fbd291ec3ddb2502a9b1e0ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 04:06:33</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_password</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 04:06:33</sys_created_on>
+            <sys_id>c40ee15ec3ddb2502a9b1e0ed401316f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー情報" display_value="ユーザー情報" name="sys_user" sys_domain="global" view="862f8902c39932502a9b1e0ed4013150">4fbd291ec3ddb2502a9b1e0ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 04:06:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 04:06:33</sys_created_on>
+            <sys_id>440ee15ec3ddb2502a9b1e0ed4013170</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー情報" display_value="ユーザー情報" name="sys_user" sys_domain="global" view="862f8902c39932502a9b1e0ed4013150">4fbd291ec3ddb2502a9b1e0ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 04:06:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_58872_needit_depending</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 04:06:33</sys_created_on>
+            <sys_id>c00ee15ec3ddb2502a9b1e0ed4013171</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー情報" display_value="ユーザー情報" name="sys_user" sys_domain="global" view="862f8902c39932502a9b1e0ed4013150">4fbd291ec3ddb2502a9b1e0ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 04:06:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>ユーザー情報</caption>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 04:05:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fbd291ec3ddb2502a9b1e0ed40131cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_4fbd291ec3ddb2502a9b1e0ed40131cc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 04:05:24</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="henkou" name="henkou">862f8902c39932502a9b1e0ed4013150</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

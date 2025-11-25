@@ -23,7 +23,7 @@
         <element choice="3" default="—" label="承認者氏名" max_length="40" name="t4" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="—" sequence="1" value="—"/>
-                <element inactive_on_update="false" label="山田太郎" sequence="0" value="山田太郎"/>
+                <element inactive_on_update="false" label="吉田一二三" sequence="0" value="山田太郎"/>
             </choice>
         </element>
         <element label="変更年月日" mandatory="true" max_length="10000" name="t1" type="string"/>
@@ -50,7 +50,7 @@
         <element choice="3" default="—" label="承認日" max_length="40" name="t10" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="—" sequence="1" value="—"/>
-                <element inactive_on_update="false" label="2025-11-11" sequence="0" value="2025-11-11"/>
+                <element inactive_on_update="false" label="2025-11-18" sequence="0" value="2025-11-11"/>
             </choice>
         </element>
         <element label="届出日" mandatory="true" max_length="40" name="todokede_bi" type="glide_date"/>

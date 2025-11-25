@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="houteidaihyou_name_furigana" label="フリガナ" language="en" table="x_58872_needit_yuugyosen_gyousha">
+    <sys_documentation element="houteidaihyou_name_furigana" label="フリガナ（名）" language="en" table="x_58872_needit_yuugyosen_gyousha">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>houteidaihyou_name_furigana</element>
             <help/>
             <hint/>
-            <label>フリガナ</label>
+            <label>フリガナ（名）</label>
             <language>en</language>
             <name>x_58872_needit_yuugyosen_gyousha</name>
-            <plural>フリガナs</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-11-17 00:55:25</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>フリガナ</sys_name>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_name>フリガナ（名）</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
             <sys_policy/>
             <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
             <sys_update_name>sys_documentation_x_58872_needit_yuugyosen_gyousha_houteidaihyou_name_furigana_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:25</sys_updated_on>
+            <sys_updated_on>2025-11-21 02:34:39</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

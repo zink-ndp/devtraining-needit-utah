@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="0f08a29fc30d36502a9b1e0ed4013134" label="遊漁船業者登録 申請書" max_length="40" name="x_58872_needit_yuugyosen_gyousha" type="collection">
         <element label="登録番号" max_length="32" name="existing_registration_number" reference="x_58872_needit_yuugyosen_gyousha" type="reference"/>
+        <element label="氏名（名）" max_length="40" name="shimei_mei" type="string"/>
         <element label="メールアドレス" mandatory="true" max_length="40" name="mail" type="string"/>
+        <element label="氏名（姓）" max_length="40" name="daihyo_shimei_sei" type="string"/>
         <element default="遊漁船業者登録申請書" label="申請の種類" max_length="40" name="shinsei_type" read_only="true" type="string"/>
         <element label="実務研修証明書" mandatory="true" max_length="40" name="proof_of_practical_training" type="file_attachment"/>
-        <element label="氏名" max_length="40" name="corporate_representative_name" type="string"/>
-        <element label="フリガナ" max_length="40" name="houteidaihyou_name_furigana" type="string"/>
+        <element label="氏名（姓）" max_length="40" name="corporate_representative_name" type="string"/>
+        <element label="フリガナ（名）" max_length="40" name="houteidaihyou_name_furigana" type="string"/>
         <element label="営業所名称" max_length="40" name="office_name" type="string"/>
         <element label="申請日" mandatory="true" max_length="40" name="shinsei_date" type="glide_date"/>
         <element label="フリガナ" max_length="40" name="legal_representative_name_fugirana" type="string"/>
@@ -13,19 +15,23 @@
         <element label="保険期間開始日" max_length="255" name="insurance_period_start" type="glide_date"/>
         <element label="市区町村" max_length="40" name="legal_resresentative_shikuchoson" type="string"/>
         <element label="遊漁船業者ID" max_length="40" name="gyosha_id" read_only="true" type="string"/>
+        <element label="フリガナ（姓）" max_length="40" name="daihyo_furigana_sei" type="string"/>
         <element label="電話番号" max_length="40" name="legal_representative_phone" type="phone_number_e164"/>
         <element label="実務経験証明書" mandatory="true" max_length="40" name="proof_of_practical_experience" type="file_attachment"/>
         <element label="誓約書１（遊漁船業者）" mandatory="true" max_length="40" name="pledge_1" type="file_attachment"/>
         <element label="携帯電話" max_length="40" name="mobile_phone" type="phone_number_e164"/>
-        <element label="氏名" max_length="40" name="houteidaihyou_name" type="string"/>
+        <element label="氏名（姓）" max_length="40" name="houteidaihyou_name" type="string"/>
         <element label="フリガナ" mandatory="true" max_length="40" name="shimei_meisho_furigana" type="string"/>
+        <element label="フリガナ（姓）" max_length="40" name="furigana_sei" type="string"/>
         <element label="FAX番号" max_length="40" name="fax" type="string"/>
         <element label="番地" mandatory="true" max_length="40" name="address_line1" type="string"/>
         <element label="遊漁船の定員" max_length="40" name="fishing_vessel_capacity" type="integer"/>
         <element active="false" label="利用定員" max_length="40" name="usage_capacity" type="integer"/>
+        <element label="フリガナ（名）" max_length="40" name="furigana_mei" type="string"/>
         <element label="遊漁船の名称（フリガナ）" max_length="40" name="fishing_vessel_name_furigana" type="string"/>
         <element label="建物名・部屋番号" max_length="40" name="legal_resresentative_tatemono" type="string"/>
         <element label="都道府県" max_length="40" name="legal_resresentative_todoufuken" type="string"/>
+        <element label="氏名（姓）" max_length="40" name="shimei_sei" type="string"/>
         <element label="登録年月日" mandatory="true" max_length="40" name="touroku_date" type="glide_date"/>
         <element label="町名・丁目" max_length="40" name="choumei" type="string"/>
         <element label="誓約書２（遊漁船業務主任者）" mandatory="true" max_length="40" name="pledge_2" type="file_attachment"/>
@@ -35,6 +41,8 @@
         <element label="メールアドレス" max_length="40" name="legal_representative_mail" type="string"/>
         <element label="市区町村" mandatory="true" max_length="40" name="city" type="string"/>
         <element label="建物名室番" max_length="40" name="address_line2" type="string"/>
+        <element label="フリガナ（名）" max_length="40" name="daihyo_furigana_mei" type="string"/>
+        <element label="氏名（名）" max_length="40" name="daihyo_shimei_mei" type="string"/>
         <element label="未成年である場合の法定代理人の住所" max_length="200" name="legal_representative_address" type="string"/>
         <element label="フリガナ" max_length="40" name="corporate_representative_name_furigana" type="string"/>
         <element label="遊漁船の名称" max_length="40" name="fishing_vessel_name" type="string"/>

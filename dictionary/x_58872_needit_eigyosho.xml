@@ -10,13 +10,15 @@
             </choice>
         </element>
         <element label="町名・丁目" mandatory="true" max_length="40" name="choumei" type="string"/>
-        <element label="業務主任者の氏名" max_length="40" name="owner_name" type="string"/>
+        <element label="業務主任者の氏名（姓）" max_length="40" name="owner_name" type="string"/>
         <element label="フリガナ" mandatory="true" max_length="40" name="furigana" type="string"/>
         <element label="番地" mandatory="true" max_length="40" name="banchi" type="string"/>
         <element label="郵便番号" mandatory="true" max_length="40" name="code" type="string"/>
         <element label="市区町村" mandatory="true" max_length="40" name="shikuchouson" type="string"/>
+        <element label="業務主任者の氏名（姓）" max_length="40" name="owner_name_sei" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element display="true" label="名称" mandatory="true" max_length="40" name="name" type="string"/>
         <element label="電話番号" mandatory="true" max_length="40" name="denwabangou" type="string"/>
+        <element label="業務主任者の氏名（名）" max_length="40" name="owner_name_mei" type="string"/>
     </element>
 </database>

@@ -4,41 +4,69 @@
             <element>t13</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 05:41:00</sys_created_on>
-            <sys_id>604d590dc3553a102a9b1e0ed401312b</sys_id>
+            <sys_created_on>2025-11-21 05:31:01</sys_created_on>
+            <sys_id>5d518a96c3d1f2502a9b1e0ed4013130</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="法人である場合の代表者の氏名" display_value="法人である場合の代表者の氏名" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" sys_domain="global" view="Default view">ec4d190dc3553a102a9b1e0ed4013102</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 05:41:00</sys_updated_on>
+            <sys_updated_on>2025-11-21 05:31:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t14</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 05:31:01</sys_created_on>
+            <sys_id>d9518a96c3d1f2502a9b1e0ed4013131</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="法人である場合の代表者の氏名" display_value="法人である場合の代表者の氏名" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" sys_domain="global" view="Default view">ec4d190dc3553a102a9b1e0ed4013102</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 05:31:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 05:41:00</sys_created_on>
-            <sys_id>ec4d590dc3553a102a9b1e0ed401312b</sys_id>
+            <sys_created_on>2025-11-21 05:31:01</sys_created_on>
+            <sys_id>59518a96c3d1f2502a9b1e0ed4013132</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="法人である場合の代表者の氏名" display_value="法人である場合の代表者の氏名" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" sys_domain="global" view="Default view">ec4d190dc3553a102a9b1e0ed4013102</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 05:41:00</sys_updated_on>
+            <sys_updated_on>2025-11-21 05:31:01</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>t14</element>
-            <position>2</position>
+            <element>shimei_mei</element>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 05:41:00</sys_created_on>
-            <sys_id>6c4d590dc3553a102a9b1e0ed401312c</sys_id>
+            <sys_created_on>2025-11-21 05:31:01</sys_created_on>
+            <sys_id>d5518a96c3d1f2502a9b1e0ed4013133</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="法人である場合の代表者の氏名" display_value="法人である場合の代表者の氏名" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" sys_domain="global" view="Default view">ec4d190dc3553a102a9b1e0ed4013102</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 05:41:00</sys_updated_on>
+            <sys_updated_on>2025-11-21 05:31:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>furigana_mei</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 05:31:01</sys_created_on>
+            <sys_id>55518a96c3d1f2502a9b1e0ed4013134</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="法人である場合の代表者の氏名" display_value="法人である場合の代表者の氏名" name="x_58872_needit_yuugyosen_gyousha_jouhou_t" sys_domain="global" view="Default view">ec4d190dc3553a102a9b1e0ed4013102</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 05:31:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -64,7 +92,7 @@
             <sys_updated_on>2025-11-17 05:41:00</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="デフォルトビュー" name="NULL">Default view</view>
+            <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

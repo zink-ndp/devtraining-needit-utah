@@ -1,44 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="法定代理人が法人である場合の代表者の氏名" section_id="adeb94c5c31df6102a9b1e0ed4013173" sys_domain="global" table="x_58872_needit_yuugyosen_gyousha" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>houteidaihyou_name</element>
+            <element>shimei_sei</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>fdeb94c5c31df6102a9b1e0ed40131a2</sys_id>
+            <sys_created_on>2025-11-21 04:27:04</sys_created_on>
+            <sys_id>a8b2b91ac311f2502a9b1e0ed401316c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="法定代理人が法人である場合の代表者の氏名" display_value="法定代理人が法人である場合の代表者の氏名" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">adeb94c5c31df6102a9b1e0ed4013173</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
+            <sys_updated_on>2025-11-21 04:27:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>furigana_sei</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 04:27:04</sys_created_on>
+            <sys_id>28b2b91ac311f2502a9b1e0ed401316d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="法定代理人が法人である場合の代表者の氏名" display_value="法定代理人が法人である場合の代表者の氏名" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">adeb94c5c31df6102a9b1e0ed4013173</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 04:27:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>bdeb94c5c31df6102a9b1e0ed40131a3</sys_id>
+            <sys_created_on>2025-11-21 04:27:04</sys_created_on>
+            <sys_id>6cb2b91ac311f2502a9b1e0ed401317a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="法定代理人が法人である場合の代表者の氏名" display_value="法定代理人が法人である場合の代表者の氏名" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">adeb94c5c31df6102a9b1e0ed4013173</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
+            <sys_updated_on>2025-11-21 04:27:04</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>houteidaihyou_name_furigana</element>
-            <position>2</position>
+            <element>shimei_mei</element>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-17 00:55:27</sys_created_on>
-            <sys_id>7deb94c5c31df6102a9b1e0ed40131a4</sys_id>
+            <sys_created_on>2025-11-21 04:27:04</sys_created_on>
+            <sys_id>e8b2b91ac311f2502a9b1e0ed401317b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="法定代理人が法人である場合の代表者の氏名" display_value="法定代理人が法人である場合の代表者の氏名" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">adeb94c5c31df6102a9b1e0ed4013173</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
+            <sys_updated_on>2025-11-21 04:27:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>furigana_mei</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 04:27:04</sys_created_on>
+            <sys_id>68b2b91ac311f2502a9b1e0ed401317c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="法定代理人が法人である場合の代表者の氏名" display_value="法定代理人が法人である場合の代表者の氏名" name="x_58872_needit_yuugyosen_gyousha" sys_domain="global" view="Default view">adeb94c5c31df6102a9b1e0ed4013173</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 04:27:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -64,7 +92,7 @@
             <sys_updated_on>2025-11-17 00:55:27</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="デフォルトビュー" name="NULL">Default view</view>
+            <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

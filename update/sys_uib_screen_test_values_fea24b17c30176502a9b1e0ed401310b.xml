@@ -23,7 +23,7 @@
         "enforceViewRulesForQuickForm": false,
         "fetchHighlightedValues": true,
         "filter": "",
-        "fixedFilter": "touroku_bangou.touroku_number=10000001",
+        "fixedFilter": "touroku_bangou.touroku_number=大阪府 第25号",
         "groupBy": "",
         "listControllerId": "vfFthf3eAU43043PoJl3ESUAkX",
         "listId": null,
@@ -55,32 +55,33 @@
         "forcedViewName": null,
         "inputExtraParams": null,
         "inputQuery": null,
-        "inputSysId": "-1",
-        "inputTable": "sys_user",
-        "isMappedToAppShell": true,
+        "inputSysId": "3adb9151c395ba102a9b1e0ed401317e",
+        "inputTable": "x_58872_needit_yuugyosen_gyousha",
+        "isMappedToAppShell": false,
         "overrideAppContextConfigIds": false,
         "screen": null,
         "selectedTabIndex": null,
         "shouldSuppressGlobalEvents": true,
         "sysparmView": null,
         "userPrefs": null,
-        "view": "touroku"
+        "view": "shousai"
     },
     "editting": "1",
-    "readonly": ""
+    "readonly": "1",
+    "henkou": null
 }</macroponent_config>
         <screen display_value="Default">aaa24b17c30176502a9b1e0ed4013103</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-11-12 02:34:42</sys_created_on>
         <sys_id>fea24b17c30176502a9b1e0ed401310b</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_fea24b17c30176502a9b1e0ed401310b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-20 01:54:45</sys_updated_on>
+        <sys_updated_on>2025-11-22 07:15:15</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

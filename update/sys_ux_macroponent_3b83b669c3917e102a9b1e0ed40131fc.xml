@@ -292,6 +292,70 @@
                                                             "id": "d37ce8abca89d02905fed903c8e34d8e",
                                                             "type": "MACROPONENT"
                                                         },
+                                                        "elementId": "button_3",
+                                                        "elementLabel": "Button 3",
+                                                        "eventMappings": [],
+                                                        "isHidden": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": null
+                                                        },
+                                                        "preset": null,
+                                                        "propertyValues": {
+                                                            "animatedIcon": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "configAria": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "disabled": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "icon": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "label": {
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": "変更"
+                                                                }
+                                                            },
+                                                            "landmark": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "size": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "md"
+                                                            },
+                                                            "tooltipContent": {
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": "Enter a label"
+                                                                }
+                                                            },
+                                                            "variant": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "primary"
+                                                            }
+                                                        },
+                                                        "slot": null,
+                                                        "styles": {
+                                                            "default": {}
+                                                        }
+                                                    },
+                                                    {
+                                                        "definition": {
+                                                            "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                                            "type": "MACROPONENT"
+                                                        },
                                                         "elementId": "button_2",
                                                         "elementLabel": "Button 2",
                                                         "eventMappings": [],
@@ -356,6 +420,9 @@
                                                         "items": [
                                                             {
                                                                 "element_id": "button_1"
+                                                            },
+                                                            {
+                                                                "element_id": "button_3"
                                                             },
                                                             {
                                                                 "element_id": "button_2"
@@ -880,6 +947,10 @@
   "code" : "",
   "comment" : ""
 }, {
+  "message" : "変更",
+  "code" : "",
+  "comment" : ""
+}, {
   "message" : "戻る",
   "code" : "",
   "comment" : ""
@@ -912,14 +983,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-11-19 01:15:00</sys_created_on>
         <sys_id>3b83b669c3917e102a9b1e0ed40131fc</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_3b83b669c3917e102a9b1e0ed40131fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-20 10:08:51</sys_updated_on>
+        <sys_updated_on>2025-11-22 09:26:51</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=3b83b669c3917e102a9b1e0ed40131fc"/>
 </record_update>

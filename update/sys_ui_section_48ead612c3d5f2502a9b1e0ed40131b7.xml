@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="行政処分情報" section_id="48ead612c3d5f2502a9b1e0ed40131b7" sys_domain="global" table="x_58872_needit_task_1119_1" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t1</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>698bd292c3d5f2502a9b1e0ed401311e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>298bd292c3d5f2502a9b1e0ed401311f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>temp_1</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>e58bd292c3d5f2502a9b1e0ed4013120</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>a58bd292c3d5f2502a9b1e0ed4013121</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>658bd292c3d5f2502a9b1e0ed4013122</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t3</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>258bd292c3d5f2502a9b1e0ed4013123</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t5</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>e18bd292c3d5f2502a9b1e0ed4013124</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t7</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>a18bd292c3d5f2502a9b1e0ed4013125</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t12</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>618bd292c3d5f2502a9b1e0ed4013126</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t10</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>218bd292c3d5f2502a9b1e0ed4013127</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>ed8bd292c3d5f2502a9b1e0ed4013127</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t4</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>ad8bd292c3d5f2502a9b1e0ed4013128</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t6</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>6d8bd292c3d5f2502a9b1e0ed4013129</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t8</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>2d8bd292c3d5f2502a9b1e0ed401312a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t11</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:25:27</sys_created_on>
+            <sys_id>e98bd292c3d5f2502a9b1e0ed401312b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="行政処分情報" display_value="行政処分情報" name="x_58872_needit_task_1119_1" sys_domain="global" view="Default view">48ead612c3d5f2502a9b1e0ed40131b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>行政処分情報</caption>
+            <header>false</header>
+            <name>x_58872_needit_task_1119_1</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 07:22:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48ead612c3d5f2502a9b1e0ed40131b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_task_1119_1</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_48ead612c3d5f2502a9b1e0ed40131b7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 07:22:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

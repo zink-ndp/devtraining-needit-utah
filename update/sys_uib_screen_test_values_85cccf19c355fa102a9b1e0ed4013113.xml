@@ -10,15 +10,16 @@
         "forcedViewName": null,
         "inputExtraParams": null,
         "inputQuery": null,
-        "inputSysId": "-1",
-        "inputTable": "x_58872_needit_eigyosho",
-        "isMappedToAppShell": false,
+        "inputSysId": "a8f98bb0eb32010045e1a5115206fe3a",
+        "inputTable": "sys_user",
+        "isMappedToAppShell": true,
         "overrideAppContextConfigIds": false,
         "screen": null,
         "selectedTabIndex": null,
         "shouldSuppressGlobalEvents": true,
         "sysparmView": null,
-        "userPrefs": null
+        "userPrefs": null,
+        "view": "touroku"
     },
     "5865e308432021105571609dc7b8f23b": {
         "allRecordsSelected": false,
@@ -54,7 +55,7 @@
         "table": "x_58872_needit_gyousha_houjin_daihyou",
         "view": ""
     },
-    "sysId": "a8f98bb0eb32010045e1a5115206fe3a",
+    "sysId": "62826bf03710200044e0bfc8bcbe5df1",
     "table": "sys_user",
     "query": "",
     "views": "",
@@ -65,20 +66,22 @@
     "selectedTabIndex": "",
     "userPrefs": "",
     "sysparmView": "",
-    "editting": null
+    "editting": null,
+    "readonly": null,
+    "henkou": "1"
 }</macroponent_config>
         <screen display_value="User">49cccf19c355fa102a9b1e0ed4013109</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-11-18 08:26:40</sys_created_on>
         <sys_id>85cccf19c355fa102a9b1e0ed4013113</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_85cccf19c355fa102a9b1e0ed4013113</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-18 08:37:00</sys_updated_on>
+        <sys_updated_on>2025-11-21 02:58:05</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>
